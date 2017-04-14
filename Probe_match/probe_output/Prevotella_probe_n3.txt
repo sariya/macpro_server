@@ -1,0 +1,1000 @@
+#seqname	desc	primer_index	primer_name	position	mismatches	seq_primer_region
+S000003149	Prevotella bryantii (T); B14 (DSM 11371, species type strain); AJ006457	1	forward	369	0	actcctacgggaggcagcag
+S000003149	Prevotella bryantii (T); B14 (DSM 11371, species type strain); AJ006457	2	reverse	813	0	attagataccctggtagtcc
+S000005567	uncultured Prevotella PUS9.180; AJ012605	1	forward	337	0	actcctacgggaggcagcag
+S000005567	uncultured Prevotella PUS9.180; AJ012605	2	reverse	781	0	attagataccctggtagtcc
+S000007810	PREVOTELLA ALBENSIS (T); M384; AJ011683	1	forward	357	0	ACTCCTACGGGAGGCAGCAG
+S000007810	PREVOTELLA ALBENSIS (T); M384; AJ011683	2	reverse	801	0	ATTAGATACCCTGGTAGTCC
+S000011989	Prevotella intermedia (T); ATCC 25611; X73965	1	forward	329	0	actcctacgggaggcagcag
+S000011989	Prevotella intermedia (T); ATCC 25611; X73965	2	reverse	774	0	attagataccctggtagtcc
+S000018859	Prevotella paludivivens; A42; AB081578	1	forward	246	0	actcctacgggaggcagcag
+S000018859	Prevotella paludivivens; A42; AB081578	2	reverse	689	0	attagataccctggtagtcc
+S000019396	Prevotella sp. Smarlab 121567; AF487886	1	forward	356	0	actcctacgggaggcagcag
+S000019396	Prevotella sp. Smarlab 121567; AF487886	2	reverse	800	0	attagataccctggtagtcc
+S000021675	Prevotella brevis (T); GA33; AJ011682	1	forward	355	0	actcctacgggaggcagcag
+S000021675	Prevotella brevis (T); GA33; AJ011682	2	reverse	799	0	attagataccctggtagtcc
+S000130618	Prevotella aff. ruminicola Tc2-24; AJ009933	1	forward	355	0	actcctacgggaggcagcag
+S000130618	Prevotella aff. ruminicola Tc2-24; AJ009933	2	reverse	799	0	attagataccctggtagtcc
+S000326492	Prevotella genomosp. C1; C3MKM081; AY278624	1	forward	335	0	actcctacgggaggcagcag
+S000326492	Prevotella genomosp. C1; C3MKM081; AY278624	2	reverse	779	0	attagataccctggtagtcc
+S000326493	Prevotella genomosp. C2; C3MLM058; AY278625	1	forward	336	0	actcctacgggaggcagcag
+S000326493	Prevotella genomosp. C2; C3MLM058; AY278625	2	reverse	780	0	attagataccctggtagtcc
+S000334738	Prevotella shahii (T); JCM 12083; EHS11; AB108825	1	forward	355	0	actcctacgggaggcagcag
+S000334738	Prevotella shahii (T); JCM 12083; EHS11; AB108825	2	reverse	799	0	attagataccctggtagtcc
+S000334739	Prevotella salivae (T); JCM 12084; EPSA11; AB108826	1	forward	355	0	actcctacgggaggcagcag
+S000334739	Prevotella salivae (T); JCM 12084; EPSA11; AB108826	2	reverse	799	0	attagataccctggtagtcc
+S000344668	Prevotella sp. oral clone BE073; AF385551	1	forward	357	0	actcctacgggaggcagcag
+S000344668	Prevotella sp. oral clone BE073; AF385551	2	reverse	801	0	attagataccctggtagtcc
+S000344671	Prevotella sp. oral clone BR014; AF385554	1	forward	356	0	actcctacgggaggcagcag
+S000344671	Prevotella sp. oral clone BR014; AF385554	2	reverse	800	0	attagataccctggtagtcc
+S000344675	Prevotella sp. oral clone BS041; AF385558	1	forward	355	0	actcctacgggaggcagcag
+S000344675	Prevotella sp. oral clone BS041; AF385558	2	reverse	798	0	attagataccctggtagtcc
+S000348341	Prevotella sp. oral clone FM005; AF432133	1	forward	356	0	actcctacgggaggcagcag
+S000348341	Prevotella sp. oral clone FM005; AF432133	2	reverse	800	0	attagataccctggtagtcc
+S000352868	Prevotella sp. oral clone AH005; AY005053	1	forward	345	0	actcctacgggaggcagcag
+S000352868	Prevotella sp. oral clone AH005; AY005053	2	reverse	789	0	attagataccctggtagtcc
+S000352869	Prevotella sp. oral clone AO036; AY005054	1	forward	357	0	actcctacgggaggcagcag
+S000352869	Prevotella sp. oral clone AO036; AY005054	2	reverse	801	0	attagataccctggtagtcc
+S000352872	Prevotella sp. oral clone AA020; AY005057	1	forward	341	0	actcctacgggaggcagcag
+S000352872	Prevotella sp. oral clone AA020; AY005057	2	reverse	785	0	attagataccctggtagtcc
+S000352873	Prevotella sp. oral clone AA016; AY005058	1	forward	340	0	actcctacgggaggcagcag
+S000352873	Prevotella sp. oral clone AA016; AY005058	2	reverse	784	0	attagataccctggtagtcc
+S000352878	Prevotella sp. oral clone CY006; AY005063	1	forward	356	0	actcctacgggaggcagcag
+S000352878	Prevotella sp. oral clone CY006; AY005063	2	reverse	800	0	attagataccctggtagtcc
+S000352879	Prevotella sp. oral clone BI027; AY005064	1	forward	355	0	actcctacgggaggcagcag
+S000352879	Prevotella sp. oral clone BI027; AY005064	2	reverse	799	0	attagataccctggtagtcc
+S000352880	Prevotella sp. oral clone DA058; AY005065	1	forward	355	0	actcctacgggaggcagcag
+S000352880	Prevotella sp. oral clone DA058; AY005065	2	reverse	799	0	attagataccctggtagtcc
+S000365828	Prevotella ruminicola; TC2-3; AF218617	1	forward	357	0	actcctacgggaggcagcag
+S000365828	Prevotella ruminicola; TC2-3; AF218617	2	reverse	801	0	attagataccctggtagtcc
+S000365829	Prevotella ruminicola; 223/M2/7; AF218618	1	forward	357	0	actcctacgggaggcagcag
+S000365829	Prevotella ruminicola; 223/M2/7; AF218618	2	reverse	801	0	attagataccctggtagtcc
+S000365830	Prevotella ruminicola; TC2-28; AF218619	1	forward	355	0	actcctacgggaggcagcag
+S000365830	Prevotella ruminicola; TC2-28; AF218619	2	reverse	799	0	attagataccctggtagtcc
+S000365831	Prevotella ruminicola; TF2-5; AF218620	1	forward	355	0	actcctacgggaggcagcag
+S000365831	Prevotella ruminicola; TF2-5; AF218620	2	reverse	800	0	attagataccctggtagtcc
+S000377105	uncultured bacterium; 178k23; AJ812137	1	forward	343	0	actcctacgggaggcagcag
+S000377105	uncultured bacterium; 178k23; AJ812137	2	reverse	787	0	attagataccctggtagtcc
+S000380158	Prevotella ruminicola; L16; AY699286	1	forward	355	0	actcctacgggaggcagcag
+S000380158	Prevotella ruminicola; L16; AY699286	2	reverse	799	0	attagataccctggtagtcc
+S000393533	Prevotella intermedia; ATCC 25611; AF414821	1	forward	338	0	actcctacgggaggcagcag
+S000393533	Prevotella intermedia; ATCC 25611; AF414821	2	reverse	783	0	attagataccctggtagtcc
+S000393534	Prevotella intermedia; 5-PIN; AF414822	1	forward	338	0	actcctacgggaggcagcag
+S000393534	Prevotella intermedia; 5-PIN; AF414822	2	reverse	783	0	attagataccctggtagtcc
+S000393535	Prevotella intermedia; 6-PIN; AF414823	1	forward	338	0	actcctacgggaggcagcag
+S000393535	Prevotella intermedia; 6-PIN; AF414823	2	reverse	783	0	attagataccctggtagtcc
+S000393536	Prevotella intermedia; 32-PIN; AF414824	1	forward	338	0	actcctacgggaggcagcag
+S000393536	Prevotella intermedia; 32-PIN; AF414824	2	reverse	783	0	attagataccctggtagtcc
+S000393537	Prevotella intermedia; 35-PIN; AF414825	1	forward	338	0	actcctacgggaggcagcag
+S000393537	Prevotella intermedia; 35-PIN; AF414825	2	reverse	783	0	attagataccctggtagtcc
+S000393538	Prevotella intermedia; 36-PIN; AF414826	1	forward	338	0	actcctacgggaggcagcag
+S000393538	Prevotella intermedia; 36-PIN; AF414826	2	reverse	783	0	attagataccctggtagtcc
+S000393539	Prevotella intermedia; 10-PIN; AF414827	1	forward	338	0	actcctacgggaggcagcag
+S000393539	Prevotella intermedia; 10-PIN; AF414827	2	reverse	783	0	attagataccctggtagtcc
+S000393540	Prevotella intermedia; 15-PIN; AF414828	1	forward	338	0	actcctacgggaggcagcag
+S000393540	Prevotella intermedia; 15-PIN; AF414828	2	reverse	783	0	attagataccctggtagtcc
+S000393541	Prevotella intermedia; 16-PIN; AF414829	1	forward	338	0	actcctacgggaggcagcag
+S000393541	Prevotella intermedia; 16-PIN; AF414829	2	reverse	783	0	attagataccctggtagtcc
+S000393542	Prevotella intermedia; 22-PIN; AF414830	1	forward	338	0	actcctacgggaggcagcag
+S000393542	Prevotella intermedia; 22-PIN; AF414830	2	reverse	783	0	attagataccctggtagtcc
+S000393543	Prevotella intermedia; 23-PIN; AF414831	1	forward	338	0	actcctacgggaggcagcag
+S000393543	Prevotella intermedia; 23-PIN; AF414831	2	reverse	783	0	attagataccctggtagtcc
+S000393544	Prevotella intermedia; 24-PIN; AF414832	1	forward	338	0	actcctacgggaggcagcag
+S000393544	Prevotella intermedia; 24-PIN; AF414832	2	reverse	783	0	attagataccctggtagtcc
+S000393545	Prevotella nigrescens; ATCC 33563; AF414833	1	forward	337	0	actcctacgggaggcagcag
+S000393545	Prevotella nigrescens; ATCC 33563; AF414833	2	reverse	781	0	attagataccctggtagtcc
+S000393546	Prevotella nigrescens; 7-PNIG; AF414834	1	forward	337	0	actcctacgggaggcagcag
+S000393546	Prevotella nigrescens; 7-PNIG; AF414834	2	reverse	781	0	attagataccctggtagtcc
+S000393547	Prevotella nigrescens; 8-PNIG; AF414835	1	forward	337	0	actcctacgggaggcagcag
+S000393547	Prevotella nigrescens; 8-PNIG; AF414835	2	reverse	781	0	attagataccctggtagtcc
+S000393548	Prevotella nigrescens; 9-PNIG; AF414836	1	forward	337	0	actcctacgggaggcagcag
+S000393548	Prevotella nigrescens; 9-PNIG; AF414836	2	reverse	781	0	attagataccctggtagtcc
+S000393549	Prevotella nigrescens; 31-PNIG; AF414837	1	forward	338	0	actcctacgggaggcagcag
+S000393549	Prevotella nigrescens; 31-PNIG; AF414837	2	reverse	782	0	attagataccctggtagtcc
+S000393550	Prevotella nigrescens; 37-PNIG; AF414838	1	forward	339	0	actcctacgggaggcagcag
+S000393550	Prevotella nigrescens; 37-PNIG; AF414838	2	reverse	783	0	attagataccctggtagtcc
+S000393551	Prevotella nigrescens; 11-PNIG; AF414839	1	forward	338	0	actcctacgggaggcagcag
+S000393551	Prevotella nigrescens; 11-PNIG; AF414839	2	reverse	782	0	attagataccctggtagtcc
+S000393552	Prevotella nigrescens; 13-PNIG; AF414840	1	forward	339	0	actcctacgggaggcagcag
+S000393552	Prevotella nigrescens; 13-PNIG; AF414840	2	reverse	783	0	attagataccctggtagtcc
+S000393553	Prevotella nigrescens; 17-PNIG; AF414841	1	forward	338	0	actcctacgggaggcagcag
+S000393553	Prevotella nigrescens; 17-PNIG; AF414841	2	reverse	782	0	attagataccctggtagtcc
+S000393554	Prevotella nigrescens; 18-PNIG; AF414842	1	forward	338	0	actcctacgggaggcagcag
+S000393554	Prevotella nigrescens; 18-PNIG; AF414842	2	reverse	782	0	attagataccctggtagtcc
+S000393555	Prevotella nigrescens; 20-PNIG; AF414843	1	forward	338	0	actcctacgggaggcagcag
+S000393555	Prevotella nigrescens; 20-PNIG; AF414843	2	reverse	782	0	attagataccctggtagtcc
+S000398586	Prevotella sp. RS2; AY158021	1	forward	357	0	actcctacgggaggcagcag
+S000398586	Prevotella sp. RS2; AY158021	2	reverse	801	0	attagataccctggtagtcc
+S000401686	Prevotella sp. oral clone P4PB_83 P2; AY207050	1	forward	337	0	actcctacgggaggcagcag
+S000401686	Prevotella sp. oral clone P4PB_83 P2; AY207050	2	reverse	781	0	attagataccctggtagtcc
+S000407552	Prevotella genomosp. P6; P4PB_24; AY331415	1	forward	337	0	actcctacgggaggcagcag
+S000407552	Prevotella genomosp. P6; P4PB_24; AY331415	2	reverse	781	0	attagataccctggtagtcc
+S000407898	Prevotella sp. oral clone FL019; AY349392	1	forward	356	0	actcctacgggaggcagcag
+S000407898	Prevotella sp. oral clone FL019; AY349392	2	reverse	800	1	gttagataccctggtagtcc
+S000407899	Prevotella sp. oral clone FU048; AY349393	1	forward	356	0	actcctacgggaggcagcag
+S000407899	Prevotella sp. oral clone FU048; AY349393	2	reverse	800	0	attagataccctggtagtcc
+S000407900	Prevotella sp. oral clone FW035; AY349394	1	forward	360	0	actcctacgggaggcagcag
+S000407900	Prevotella sp. oral clone FW035; AY349394	2	reverse	804	0	attagataccctggtagtcc
+S000407901	Prevotella sp. oral clone GI030; AY349395	1	forward	356	0	actcctacgggaggcagcag
+S000407901	Prevotella sp. oral clone GI030; AY349395	2	reverse	800	0	attagataccctggtagtcc
+S000407902	Prevotella sp. oral clone GI032; AY349396	1	forward	354	0	actcctacgggaggcagcag
+S000407902	Prevotella sp. oral clone GI032; AY349396	2	reverse	798	0	attagataccctggtagtcc
+S000407903	Prevotella sp. oral clone GI059; AY349397	1	forward	356	0	actcctacgggaggcagcag
+S000407903	Prevotella sp. oral clone GI059; AY349397	2	reverse	800	0	attagataccctggtagtcc
+S000407904	Prevotella sp. oral clone GU027; AY349398	1	forward	354	0	actcctacgggaggcagcag
+S000407904	Prevotella sp. oral clone GU027; AY349398	2	reverse	798	0	attagataccctggtagtcc
+S000407907	Prevotella sp. oral clone IK053; AY349401	1	forward	354	0	actcctacgggaggcagcag
+S000407907	Prevotella sp. oral clone IK053; AY349401	2	reverse	798	0	attagataccctggtagtcc
+S000412949	Prevotella sp. oral clone IDR-CEC-0032; AY550995	1	forward	338	0	actcctacgggaggcagcag
+S000412949	Prevotella sp. oral clone IDR-CEC-0032; AY550995	2	reverse	782	0	attagataccctggtagtcc
+S000412950	Prevotella sp. oral clone IDR-CEC-0024; AY550996	1	forward	345	0	actcctacgggaggcagcag
+S000412950	Prevotella sp. oral clone IDR-CEC-0024; AY550996	2	reverse	789	0	attagataccctggtagtcc
+S000412951	Prevotella sp. oral clone IDR-CEC-0055; AY550997	1	forward	348	0	actcctacgggaggcagcag
+S000412951	Prevotella sp. oral clone IDR-CEC-0055; AY550997	2	reverse	792	0	attagataccctggtagtcc
+S000427300	Prevotella sp.; sp24; AB003384	1	forward	308	0	actcctacgggaggcagcag
+S000427300	Prevotella sp.; sp24; AB003384	2	reverse	752	0	attagataccctggtagtcc
+S000427301	Prevotella sp.; sp34; AB003385	1	forward	308	0	actcctacgggaggcagcag
+S000427301	Prevotella sp.; sp34; AB003385	2	reverse	752	0	attagataccctggtagtcc
+S000427302	Prevotella sp.; sp28; AB003386	1	forward	308	0	actcctacgggaggcagcag
+S000427302	Prevotella sp.; sp28; AB003386	2	reverse	752	0	attagataccctggtagtcc
+S000427303	Prevotella sp.; sp158; AB003387	1	forward	308	0	actcctacgggaggcagcag
+S000427303	Prevotella sp.; sp158; AB003387	2	reverse	752	0	attagataccctggtagtcc
+S000427310	Prevotella ruminicola; T31; AB003401	1	forward	353	0	actcctacgggaggcagcag
+S000427310	Prevotella ruminicola; T31; AB003401	2	reverse	798	0	attagataccctggtagtcc
+S000427311	Prevotella ruminicola; AB003403	1	forward	308	0	actcctacgggaggcagcag
+S000427311	Prevotella ruminicola; AB003403	2	reverse	752	0	attagataccctggtagtcc
+S000427353	Prevotella ruminicola; PF20-3; Bovine rumen; AB004909	1	forward	317	0	actcctacgggaggcagcag
+S000427353	Prevotella ruminicola; PF20-3; Bovine rumen; AB004909	2	reverse	761	0	attagataccctggtagtcc
+S000427989	Prevotella sp. RZ; AF040719	1	forward	357	0	actcctacgggaggcagcag
+S000427989	Prevotella sp. RZ; AF040719	2	reverse	801	0	attagataccctggtagtcc
+S000432070	Prevotella sp. P2A_FAAD4; AF537212	1	forward	336	0	actcctacgggaggcagcag
+S000432070	Prevotella sp. P2A_FAAD4; AF537212	2	reverse	780	0	attagataccctggtagtcc
+S000464967	Prevotella intermedia; ChDC KB3; AY689221	1	forward	358	0	actcctacgggaggcagcag
+S000464967	Prevotella intermedia; ChDC KB3; AY689221	2	reverse	803	0	attagataccctggtagtcc
+S000464969	Prevotella intermedia; ChDC KB18; AY689223	1	forward	358	0	actcctacgggaggcagcag
+S000464969	Prevotella intermedia; ChDC KB18; AY689223	2	reverse	803	0	attagataccctggtagtcc
+S000464971	Prevotella intermedia; ChDC KB29; AY689225	1	forward	358	0	actcctacgggaggcagcag
+S000464971	Prevotella intermedia; ChDC KB29; AY689225	2	reverse	803	0	attagataccctggtagtcc
+S000464972	Prevotella intermedia; ChDC KB53; AY689226	1	forward	358	0	actcctacgggaggcagcag
+S000464972	Prevotella intermedia; ChDC KB53; AY689226	2	reverse	803	0	attagataccctggtagtcc
+S000464973	Prevotella nigrescens; ChDC KB5; AY689227	1	forward	357	0	actcctacgggaggcagcag
+S000464973	Prevotella nigrescens; ChDC KB5; AY689227	2	reverse	801	0	attagataccctggtagtcc
+S000464975	Prevotella nigrescens; ChDC KB50; AY689229	1	forward	357	0	actcctacgggaggcagcag
+S000464975	Prevotella nigrescens; ChDC KB50; AY689229	2	reverse	801	0	attagataccctggtagtcc
+S000464976	Prevotella nigrescens; ChDC B270; AY689230	1	forward	358	1	ctcctacggggaggcagcag
+S000464976	Prevotella nigrescens; ChDC B270; AY689230	2	reverse	802	0	attagataccctggtagtcc
+S000481215	Prevotella sp. N12-20; AY880052	1	forward	337	0	actcctacgggaggcagcag
+S000481215	Prevotella sp. N12-20; AY880052	2	reverse	781	0	attagataccctggtagtcc
+S000481216	Prevotella sp. N19-22; AY880053	1	forward	292	0	actcctacgggaggcagcag
+S000481216	Prevotella sp. N19-22; AY880053	2	reverse	736	0	attagataccctggtagtcc
+S000481217	Prevotella sp. N19-31; AY880054	1	forward	292	0	actcctacgggaggcagcag
+S000481217	Prevotella sp. N19-31; AY880054	2	reverse	736	0	attagataccctggtagtcc
+S000481218	Prevotella sp. T05-04; AY880055	1	forward	292	0	actcctacgggaggcagcag
+S000481218	Prevotella sp. T05-04; AY880055	2	reverse	736	0	attagataccctggtagtcc
+S000496429	Prevotella multiformis (T); PPPA21; AB182483	1	forward	359	0	actcctacgggaggcagcag
+S000496429	Prevotella multiformis (T); PPPA21; AB182483	2	reverse	803	0	attagataccctggtagtcc
+S000496430	Prevotella multiformis; PPPA19; AB182484	1	forward	359	0	actcctacgggaggcagcag
+S000496430	Prevotella multiformis; PPPA19; AB182484	2	reverse	803	0	attagataccctggtagtcc
+S000496431	Prevotella multiformis; PPPA28; AB182485	1	forward	359	0	actcctacgggaggcagcag
+S000496431	Prevotella multiformis; PPPA28; AB182485	2	reverse	803	0	attagataccctggtagtcc
+S000496432	Prevotella multiformis; PPPA30; AB182486	1	forward	359	0	actcctacgggaggcagcag
+S000496432	Prevotella multiformis; PPPA30; AB182486	2	reverse	803	0	attagataccctggtagtcc
+S000497367	Prevotella multisaccharivorax (T); JCM 12954; AB200414	1	forward	355	0	actcctacgggaggcagcag
+S000497367	Prevotella multisaccharivorax (T); JCM 12954; AB200414	2	reverse	799	0	attagataccctggtagtcc
+S000499425	Prevotella sp. oral clone DO014; AF385509	1	forward	354	0	actcctacgggaggcagcag
+S000499425	Prevotella sp. oral clone DO014; AF385509	2	reverse	798	0	attagataccctggtagtcc
+S000499427	Prevotella sp. oral clone DO027; AF385511	1	forward	356	0	actcctacgggaggcagcag
+S000499427	Prevotella sp. oral clone DO027; AF385511	2	reverse	800	0	attagataccctggtagtcc
+S000499428	Prevotella sp. oral clone DO033; AF385512	1	forward	354	0	actcctacgggaggcagcag
+S000499428	Prevotella sp. oral clone DO033; AF385512	2	reverse	798	0	attagataccctggtagtcc
+S000499431	Prevotella sp. oral clone DO045; AF385515	1	forward	351	0	actcctacgggaggcagcag
+S000499431	Prevotella sp. oral clone DO045; AF385515	2	reverse	795	0	attagataccctggtagtcc
+S000499435	Prevotella sp. oral clone DO022; AF385519	1	forward	356	1	actcttacgggaggcagcag
+S000499435	Prevotella sp. oral clone DO022; AF385519	2	reverse	800	0	attagataccctggtagtcc
+S000500010	Prevotella sp. E7_34; AF481226	1	forward	339	0	actcctacgggaggcagcag
+S000500010	Prevotella sp. E7_34; AF481226	2	reverse	783	0	attagataccctggtagtcc
+S000500012	Prevotella micans (T); E7.56; AF481228	1	forward	335	0	actcctacgggaggcagcag
+S000500012	Prevotella micans (T); E7.56; AF481228	2	reverse	779	0	attagataccctggtagtcc
+S000500013	Prevotella sp. E9_42; AF481229	1	forward	337	0	actcctacgggaggcagcag
+S000500013	Prevotella sp. E9_42; AF481229	2	reverse	781	0	attagataccctggtagtcc
+S000514219	Prevotella genomosp. P4; P4P_53; AY944134	1	forward	336	0	actcctacgggaggcagcag
+S000514219	Prevotella genomosp. P4; P4P_53; AY944134	2	reverse	780	0	attagataccctggtagtcc
+S000515245	Prevotella nanceiensis (T); AIP 261.03; AY957555	1	forward	305	0	actcctacgggaggcagcag
+S000515245	Prevotella nanceiensis (T); AIP 261.03; AY957555	2	reverse	749	0	attagataccctggtagtcc
+S000540392	Prevotella sp. B31FD; AY005061	1	forward	354	0	actcctacgggaggcagcag
+S000540392	Prevotella sp. B31FD; AY005061	2	reverse	798	0	attagataccctggtagtcc
+S000546838	Prevotella oralis (T); ATCC 33269; AY323522	1	forward	340	0	actcctacgggaggcagcag
+S000546838	Prevotella oralis (T); ATCC 33269; AY323522	2	reverse	784	0	attagataccctggtagtcc
+S000558523	Prevotella sp. oral clone HB034; DQ087190	1	forward	356	0	actcctacgggaggcagcag
+S000558523	Prevotella sp. oral clone HB034; DQ087190	2	reverse	800	0	attagataccctggtagtcc
+S000570095	Prevotella marshii (T); E9.34; AF481227	1	forward	335	0	actcctacgggaggcagcag
+S000570095	Prevotella marshii (T); E9.34; AF481227	2	reverse	779	0	attagataccctggtagtcc
+S000575568	Prevotella baroniae (T); E9.33; AY840553	1	forward	337	0	actcctacgggaggcagcag
+S000575568	Prevotella baroniae (T); E9.33; AY840553	2	reverse	781	0	attagataccctggtagtcc
+S000586770	uncultured Prevotella sp.; BL42; DQ130023	1	forward	330	0	actcctacgggaggcagcag
+S000586770	uncultured Prevotella sp.; BL42; DQ130023	2	reverse	774	0	attagataccctggtagtcc
+S000626737	uncultured Prevotella sp.; L4M2 enrichment clone 196.A09; DQ308570	1	forward	355	0	actcctacgggaggcagcag
+S000626737	uncultured Prevotella sp.; L4M2 enrichment clone 196.A09; DQ308570	2	reverse	799	1	attagataccctggtagtct
+S000626760	uncultured Prevotella sp.; L4M2 enrichment clone 196.F10; DQ308593	1	forward	355	0	actcctacgggaggcagcag
+S000626760	uncultured Prevotella sp.; L4M2 enrichment clone 196.F10; DQ308593	2	reverse	799	0	attagataccctggtagtcc
+S000626761	uncultured Prevotella sp.; L4M2 enrichment clone 196.F11; DQ308594	1	forward	355	0	actcctacgggaggcagcag
+S000626761	uncultured Prevotella sp.; L4M2 enrichment clone 196.F11; DQ308594	2	reverse	799	0	attagataccctggtagtcc
+S000626762	uncultured Prevotella sp.; L4M2 enrichment clone 196.G01; DQ308595	1	forward	355	0	actcctacgggaggcagcag
+S000626762	uncultured Prevotella sp.; L4M2 enrichment clone 196.G01; DQ308595	2	reverse	799	0	attagataccctggtagtcc
+S000626766	uncultured Prevotella sp.; L4M2 enrichment clone 196.G09; DQ308599	1	forward	355	0	actcctacgggaggcagcag
+S000626766	uncultured Prevotella sp.; L4M2 enrichment clone 196.G09; DQ308599	2	reverse	799	0	attagataccctggtagtcc
+S000626772	uncultured Prevotella sp.; L4M2 enrichment clone 196.H12; DQ308605	1	forward	355	0	actcctacgggaggcagcag
+S000626772	uncultured Prevotella sp.; L4M2 enrichment clone 196.H12; DQ308605	2	reverse	799	0	attagataccctggtagtcc
+S000641531	Prevotella genomosp. P9 oral clone MB7_G16; DQ003633	1	forward	337	0	actcctacgggaggcagcag
+S000641531	Prevotella genomosp. P9 oral clone MB7_G16; DQ003633	2	reverse	781	0	attagataccctggtagtcc
+S000650962	Prevotella sp. 152R-1a; DQ278861	1	forward	258	0	actcctacgggaggcagcag
+S000650962	Prevotella sp. 152R-1a; DQ278861	2	reverse	702	0	attagataccctggtagtcc
+S000682539	Prevotella genomosp. P7 oral clone MB2_P31; DQ003620	1	forward	339	0	actcctacgggaggcagcag
+S000682539	Prevotella genomosp. P7 oral clone MB2_P31; DQ003620	2	reverse	783	1	attagataccctgctagtcc
+S000721552	Candidatus Prevotella conceptionensis; DQ139963	1	forward	335	0	actcctacgggaggcagcag
+S000721552	Candidatus Prevotella conceptionensis; DQ139963	2	reverse	779	0	attagataccctggtagtcc
+S000750307	Prevotella timonensis (T); 4401737; DQ518919	1	forward	335	0	actcctacgggaggcagcag
+S000750307	Prevotella timonensis (T); 4401737; DQ518919	2	reverse	779	0	attagataccctggtagtcc
+S000768314	Prevotella copri (T); CB7; AB064923	1	forward	357	0	actcctacgggaggcagcag
+S000768314	Prevotella copri (T); CB7; AB064923	2	reverse	801	0	attagataccctggtagtcc
+S000768318	Prevotella copri; CB18; AB244770	1	forward	357	0	actcctacgggaggcagcag
+S000768318	Prevotella copri; CB18; AB244770	2	reverse	801	0	attagataccctggtagtcc
+S000768320	Prevotella copri; CB26; AB244772	1	forward	357	0	actcctacgggaggcagcag
+S000768320	Prevotella copri; CB26; AB244772	2	reverse	801	0	attagataccctggtagtcc
+S000768321	Prevotella copri; CB28; AB244773	1	forward	357	0	actcctacgggaggcagcag
+S000768321	Prevotella copri; CB28; AB244773	2	reverse	801	0	attagataccctggtagtcc
+S000768322	Prevotella stercorea (T); CB35; AB244774	1	forward	353	0	actcctacgggaggcagcag
+S000768322	Prevotella stercorea (T); CB35; AB244774	2	reverse	797	0	attagataccctggtagtcc
+S000774968	Prevotella pleuritidis (T); JCM 14110; AB278593	1	forward	343	0	actcctacgggaggcagcag
+S000774968	Prevotella pleuritidis (T); JCM 14110; AB278593	2	reverse	787	0	attagataccctggtagtcc
+S000824626	Prevotella nanceiensis; LBN 297; EF405529	1	forward	302	0	actcctacgggaggcagcag
+S000824626	Prevotella nanceiensis; LBN 297; EF405529	2	reverse	746	0	attagataccctggtagtcc
+S000824627	Prevotella nanceiensis; LBN 298; EF405530	1	forward	301	0	actcctacgggaggcagcag
+S000824627	Prevotella nanceiensis; LBN 298; EF405530	2	reverse	745	0	attagataccctggtagtcc
+S000859950	Prevotella maculosa (T); W1609; EF534314	1	forward	336	0	actcctacgggaggcagcag
+S000859950	Prevotella maculosa (T); W1609; EF534314	2	reverse	780	0	attagataccctggtagtcc
+S000859951	Prevotella maculosa; W1609; EF534315	1	forward	336	0	actcctacgggaggcagcag
+S000859951	Prevotella maculosa; W1609; EF534315	2	reverse	780	0	attagataccctggtagtcc
+S000927687	Prevotella histicola (T); T05-04; EU126661	1	forward	337	0	actcctacgggaggcagcag
+S000927687	Prevotella histicola (T); T05-04; EU126661	2	reverse	781	0	attagataccctggtagtcc
+S000927688	Prevotella histicola; N12-20; EU126662	1	forward	337	0	actcctacgggaggcagcag
+S000927688	Prevotella histicola; N12-20; EU126662	2	reverse	781	0	attagataccctggtagtcc
+S000944402	uncultured Prevotella sp.; 101E01(oral); AM419964	1	forward	358	0	actcctacgggaggcagcag
+S000944402	uncultured Prevotella sp.; 101E01(oral); AM419964	2	reverse	803	0	attagataccctggtagtcc
+S000944414	uncultured Prevotella sp.; 101G12(oral); AM419976	1	forward	355	0	actcctacgggaggcagcag
+S000944414	uncultured Prevotella sp.; 101G12(oral); AM419976	2	reverse	799	0	attagataccctggtagtcc
+S000944417	uncultured Prevotella sp.; 101H11(oral); AM419979	1	forward	358	0	actcctacgggaggcagcag
+S000944417	uncultured Prevotella sp.; 101H11(oral); AM419979	2	reverse	803	0	attagataccctggtagtcc
+S000944427	uncultured Prevotella sp.; 102C07(oral); AM419989	1	forward	357	0	actcctacgggaggcagcag
+S000944427	uncultured Prevotella sp.; 102C07(oral); AM419989	2	reverse	801	0	attagataccctggtagtcc
+S000944430	uncultured Prevotella sp.; 102D01(oral); AM419992	1	forward	357	0	actcctacgggaggcagcag
+S000944430	uncultured Prevotella sp.; 102D01(oral); AM419992	2	reverse	801	0	attagataccctggtagtcc
+S000944441	uncultured Prevotella sp.; 102F09(oral); AM420003	1	forward	355	0	actcctacgggaggcagcag
+S000944441	uncultured Prevotella sp.; 102F09(oral); AM420003	2	reverse	800	0	attagataccctggtagtcc
+S000944442	uncultured Prevotella sp.; 102F11(oral); AM420004	1	forward	357	0	actcctacgggaggcagcag
+S000944442	uncultured Prevotella sp.; 102F11(oral); AM420004	2	reverse	802	0	attagataccctggtagtcc
+S000944462	uncultured Prevotella sp.; 201D06(oral); AM420024	1	forward	355	0	actcctacgggaggcagcag
+S000944462	uncultured Prevotella sp.; 201D06(oral); AM420024	2	reverse	802	1	ttagatacccctggtagtcc
+S000944469	uncultured Prevotella sp.; 201F12(oral); AM420031	1	forward	355	0	actcctacgggaggcagcag
+S000944469	uncultured Prevotella sp.; 201F12(oral); AM420031	2	reverse	800	0	attagataccctggtagtcc
+S000944470	uncultured Prevotella sp.; 201G02(oral); AM420032	1	forward	355	0	actcctacgggaggcagcag
+S000944470	uncultured Prevotella sp.; 201G02(oral); AM420032	2	reverse	799	0	attagataccctggtagtcc
+S000944476	uncultured Prevotella sp.; 202A10(oral); AM420038	1	forward	305	0	actcctacgggaggcagcag
+S000944476	uncultured Prevotella sp.; 202A10(oral); AM420038	2	reverse	749	0	attagataccctggtagtcc
+S000944477	uncultured Prevotella sp.; 202A12(oral); AM420039	1	forward	355	0	actcctacgggaggcagcag
+S000944477	uncultured Prevotella sp.; 202A12(oral); AM420039	2	reverse	800	0	attagataccctggtagtcc
+S000944494	uncultured Prevotella sp.; 203003(oral); AM420056	1	forward	354	0	actcctacgggaggcagcag
+S000944494	uncultured Prevotella sp.; 203003(oral); AM420056	2	reverse	798	0	attagataccctggtagtcc
+S000944497	uncultured Prevotella sp.; 301B02(oral); AM420059	1	forward	357	0	actcctacgggaggcagcag
+S000944497	uncultured Prevotella sp.; 301B02(oral); AM420059	2	reverse	801	0	attagataccctggtagtcc
+S000944505	uncultured Prevotella sp.; 301E02(oral); AM420067	1	forward	355	0	actcctacgggaggcagcag
+S000944505	uncultured Prevotella sp.; 301E02(oral); AM420067	2	reverse	799	0	attagataccctggtagtcc
+S000944507	uncultured Prevotella sp.; 301E09(oral); AM420069	1	forward	357	0	actcctacgggaggcagcag
+S000944507	uncultured Prevotella sp.; 301E09(oral); AM420069	2	reverse	801	0	attagataccctggtagtcc
+S000944514	uncultured Prevotella sp.; 301G11(oral); AM420076	1	forward	357	0	actcctacgggaggcagcag
+S000944514	uncultured Prevotella sp.; 301G11(oral); AM420076	2	reverse	801	0	attagataccctggtagtcc
+S000944517	uncultured Prevotella sp.; 302A04(oral); AM420079	1	forward	359	0	actcctacgggaggcagcag
+S000944517	uncultured Prevotella sp.; 302A04(oral); AM420079	2	reverse	803	0	attagataccctggtagtcc
+S000944519	uncultured Prevotella sp.; 302B03(oral); AM420081	1	forward	358	0	actcctacgggaggcagcag
+S000944519	uncultured Prevotella sp.; 302B03(oral); AM420081	2	reverse	803	0	attagataccctggtagtcc
+S000944520	uncultured Prevotella sp.; 302B04(oral); AM420082	1	forward	357	0	actcctacgggaggcagcag
+S000944520	uncultured Prevotella sp.; 302B04(oral); AM420082	2	reverse	801	0	attagataccctggtagtcc
+S000944522	uncultured Prevotella sp.; 302B11(oral); AM420084	1	forward	357	0	actcctacgggaggcagcag
+S000944522	uncultured Prevotella sp.; 302B11(oral); AM420084	2	reverse	801	0	attagataccctggtagtcc
+S000944535	uncultured Prevotella sp.; 303A09(oral); AM420097	1	forward	355	0	actcctacgggaggcagcag
+S000944535	uncultured Prevotella sp.; 303A09(oral); AM420097	2	reverse	799	0	attagataccctggtagtcc
+S000944561	uncultured Prevotella sp.; 401F02(oral); AM420123	1	forward	357	0	actcctacgggaggcagcag
+S000944561	uncultured Prevotella sp.; 401F02(oral); AM420123	2	reverse	801	0	attagataccctggtagtcc
+S000944564	uncultured Prevotella sp.; 401G07(oral); AM420126	1	forward	357	0	actcctacgggaggcagcag
+S000944564	uncultured Prevotella sp.; 401G07(oral); AM420126	2	reverse	801	0	attagataccctggtagtcc
+S000944655	uncultured Prevotella sp.; 601D02(oral); AM420217	1	forward	356	0	actcctacgggaggcagcag
+S000944655	uncultured Prevotella sp.; 601D02(oral); AM420217	2	reverse	800	0	attagataccctggtagtcc
+S000944690	uncultured Prevotella sp.; 701D05(oral); AM420252	1	forward	355	0	actcctacgggaggcagcag
+S000944690	uncultured Prevotella sp.; 701D05(oral); AM420252	2	reverse	799	0	attagataccctggtagtcc
+S000944696	uncultured Prevotella sp.; 701F12(oral); AM420258	1	forward	338	0	actcctacgggaggcagcag
+S000944696	uncultured Prevotella sp.; 701F12(oral); AM420258	2	reverse	783	0	attagataccctggtagtcc
+S000944697	uncultured Prevotella sp.; 701G03(oral); AM420259	1	forward	357	0	actcctacgggaggcagcag
+S000944697	uncultured Prevotella sp.; 701G03(oral); AM420259	2	reverse	802	0	attagataccctggtagtcc
+S001033752	uncultured Prevotella sp.; OCT046; EU669567	1	forward	362	0	actcctacgggaggcagcag
+S001033752	uncultured Prevotella sp.; OCT046; EU669567	2	reverse	806	0	attagataccctggtagtcc
+S001043953	Prevotella falsenii; 04013 (= JCM 15121); AB429501	1	forward	358	0	actcctacgggaggcagcag
+S001043953	Prevotella falsenii; 04013 (= JCM 15121); AB429501	2	reverse	802	0	attagataccctggtagtcc
+S001043954	Prevotella falsenii; 04021 (= JCM 15122); AB429502	1	forward	358	0	actcctacgggaggcagcag
+S001043954	Prevotella falsenii; 04021 (= JCM 15122); AB429502	2	reverse	803	0	attagataccctggtagtcc
+S001043955	Prevotella falsenii; 04043 (= JCM 15123); AB429503	1	forward	358	0	actcctacgggaggcagcag
+S001043955	Prevotella falsenii; 04043 (= JCM 15123); AB429503	2	reverse	802	0	attagataccctggtagtcc
+S001043956	Prevotella falsenii (T); 04052 (= JCM 15124); AB429504	1	forward	358	0	actcctacgggaggcagcag
+S001043956	Prevotella falsenii (T); 04052 (= JCM 15124); AB429504	2	reverse	803	0	attagataccctggtagtcc
+S001043957	Prevotella falsenii; 0406 (= JCM 15125); AB429505	1	forward	358	0	actcctacgggaggcagcag
+S001043957	Prevotella falsenii; 0406 (= JCM 15125); AB429505	2	reverse	802	0	attagataccctggtagtcc
+S001043958	Prevotella falsenii; 04113 (= JCM 15126); AB429506	1	forward	358	0	actcctacgggaggcagcag
+S001043958	Prevotella falsenii; 04113 (= JCM 15126); AB429506	2	reverse	802	0	attagataccctggtagtcc
+S001043959	Prevotella falsenii; 04111 (= JCM 15127); AB429507	1	forward	310	0	actcctacgggaggcagcag
+S001043959	Prevotella falsenii; 04111 (= JCM 15127); AB429507	2	reverse	754	0	attagataccctggtagtcc
+S001043960	Prevotella falsenii; 04161(= JCM 15128); AB429508	1	forward	358	0	actcctacgggaggcagcag
+S001043960	Prevotella falsenii; 04161(= JCM 15128); AB429508	2	reverse	802	0	attagataccctggtagtcc
+S001046005	Prevotella sp. DJF_B116; EU728713	1	forward	353	0	actcctacgggaggcagcag
+S001046005	Prevotella sp. DJF_B116; EU728713	2	reverse	797	0	attagataccctggtagtcc
+S001088799	uncultured Prevotella sp.; 099B; EU644456	1	forward	352	0	actcctacgggaggcagcag
+S001088799	uncultured Prevotella sp.; 099B; EU644456	2	reverse	796	0	attagataccctggtagtcc
+S001096752	Prevotella micans; 4D22; EU562293	1	forward	335	0	actcctacgggaggcagcag
+S001096752	Prevotella micans; 4D22; EU562293	2	reverse	779	0	attagataccctggtagtcc
+S001264970	Prevotella fusca (T); W1435; FJ545433	1	forward	337	0	actcctacgggaggcagcag
+S001264970	Prevotella fusca (T); W1435; FJ545433	2	reverse	781	0	attagataccctggtagtcc
+S001264971	Prevotella scopos (T); W2052; FJ545434	1	forward	337	0	actcctacgggaggcagcag
+S001264971	Prevotella scopos (T); W2052; FJ545434	2	reverse	781	0	attagataccctggtagtcc
+S001331330	Prevotella intermedia; ATCC 25611; FJ792535	1	forward	323	0	actcctacgggaggcagcag
+S001331330	Prevotella intermedia; ATCC 25611; FJ792535	2	reverse	768	0	attagataccctggtagtcc
+S001331333	Prevotella melaninogenica; ATCC 43982; FJ792538	1	forward	322	0	actcctacgggaggcagcag
+S001331333	Prevotella melaninogenica; ATCC 43982; FJ792538	2	reverse	766	0	attagataccctggtagtcc
+S001349936	Prevotella aurantiaca (T); JCM 15754; OMA31; AB480534	1	forward	357	0	actcctacgggaggcagcag
+S001349936	Prevotella aurantiaca (T); JCM 15754; OMA31; AB480534	2	reverse	801	0	attagataccctggtagtcc
+S001349937	Prevotella aurantiaca; JCM 15755; OMA130; AB480535	1	forward	357	0	actcctacgggaggcagcag
+S001349937	Prevotella aurantiaca; JCM 15755; OMA130; AB480535	2	reverse	801	0	attagataccctggtagtcc
+S001352203	Prevotella saccharolytica (T); D033B-12-2; FJ825149	1	forward	335	0	actcctacgggaggcagcag
+S001352203	Prevotella saccharolytica (T); D033B-12-2; FJ825149	2	reverse	779	0	attagataccctggtagtcc
+S001352204	Prevotella saccharolytica; D080A-01; FJ825150	1	forward	335	0	actcctacgggaggcagcag
+S001352204	Prevotella saccharolytica; D080A-01; FJ825150	2	reverse	779	0	attagataccctggtagtcc
+S001352528	Prevotella sp. 310-5; FJ848545	1	forward	321	0	actcctacgggaggcagcag
+S001352528	Prevotella sp. 310-5; FJ848545	2	reverse	765	0	attagataccctggtagtcc
+S001354405	uncultured Prevotella sp.; BA1; EU663611	1	forward	312	0	actcctacgggaggcagcag
+S001354405	uncultured Prevotella sp.; BA1; EU663611	2	reverse	756	0	attagataccctggtagtcc
+S001416004	Prevotella dentasini (T); NUM 1903; AB477014	1	forward	368	0	actcctacgggaggcagcag
+S001416004	Prevotella dentasini (T); NUM 1903; AB477014	2	reverse	812	0	attagataccctggtagtcc
+S001417186	Prevotella sp. oral taxon 317; F0108; FJ577255	1	forward	354	0	actcctacgggaggcagcag
+S001417186	Prevotella sp. oral taxon 317; F0108; FJ577255	2	reverse	798	0	attagataccctggtagtcc
+S001417188	Prevotella sp. oral taxon 299; F0039; FJ577257	1	forward	353	0	actcctacgggaggcagcag
+S001417188	Prevotella sp. oral taxon 299; F0039; FJ577257	2	reverse	797	0	attagataccctggtagtcc
+S001417216	Prevotella sp. oral taxon 472 str. F0295; FJ717335	1	forward	354	0	actcctacgggaggcagcag
+S001417216	Prevotella sp. oral taxon 472 str. F0295; FJ717335	2	reverse	798	0	attagataccctggtagtcc
+S001418352	Prevotella baroniae; LBN 427; FJ940875	1	forward	337	0	actcctacgggaggcagcag
+S001418352	Prevotella baroniae; LBN 427; FJ940875	2	reverse	781	0	attagataccctggtagtcc
+S001418353	Prevotella baroniae; LBN 430; FJ940876	1	forward	337	0	actcctacgggaggcagcag
+S001418353	Prevotella baroniae; LBN 430; FJ940876	2	reverse	781	0	attagataccctggtagtcc
+S001418354	Prevotella baroniae; LBN 432; FJ940877	1	forward	337	0	actcctacgggaggcagcag
+S001418354	Prevotella baroniae; LBN 432; FJ940877	2	reverse	781	0	attagataccctggtagtcc
+S001418355	Prevotella baroniae; LBN 466; FJ940878	1	forward	337	0	actcctacgggaggcagcag
+S001418355	Prevotella baroniae; LBN 466; FJ940878	2	reverse	781	0	attagataccctggtagtcc
+S001418356	Prevotella baroniae; LBN 475; FJ940879	1	forward	337	0	actcctacgggaggcagcag
+S001418356	Prevotella baroniae; LBN 475; FJ940879	2	reverse	781	0	attagataccctggtagtcc
+S001418357	Prevotella baroniae; LBP 9; FJ940880	1	forward	337	0	actcctacgggaggcagcag
+S001418357	Prevotella baroniae; LBP 9; FJ940880	2	reverse	781	0	attagataccctggtagtcc
+S001418358	Prevotella baroniae; LBP 19; FJ940881	1	forward	337	0	actcctacgggaggcagcag
+S001418358	Prevotella baroniae; LBP 19; FJ940881	2	reverse	781	0	attagataccctggtagtcc
+S001418359	Prevotella baroniae; DSM 16972; FJ940882	1	forward	337	0	actcctacgggaggcagcag
+S001418359	Prevotella baroniae; DSM 16972; FJ940882	2	reverse	781	0	attagataccctggtagtcc
+S001546281	uncultured Prevotella sp.; VE12H08; GQ179738	1	forward	335	0	actcctacgggaggcagcag
+S001546281	uncultured Prevotella sp.; VE12H08; GQ179738	2	reverse	779	0	attagataccctggtagtcc
+S001546282	uncultured Prevotella sp.; VE12D05; GQ179739	1	forward	335	0	actcctacgggaggcagcag
+S001546282	uncultured Prevotella sp.; VE12D05; GQ179739	2	reverse	779	0	attagataccctggtagtcc
+S001546283	uncultured Prevotella sp.; VE4A03; GQ179740	1	forward	335	0	actcctacgggaggcagcag
+S001546283	uncultured Prevotella sp.; VE4A03; GQ179740	2	reverse	779	0	attagataccctggtagtcc
+S001546284	uncultured Prevotella sp.; VE62D04; GQ179741	1	forward	335	0	actcctacgggaggcagcag
+S001546284	uncultured Prevotella sp.; VE62D04; GQ179741	2	reverse	779	0	attagataccctggtagtcc
+S001550734	Prevotella oris; F0302; GQ131410	1	forward	355	0	actcctacgggaggcagcag
+S001550734	Prevotella oris; F0302; GQ131410	2	reverse	799	0	attagataccctggtagtcc
+S001550742	Prevotella veroralis; F0319; GQ131418	1	forward	356	0	actcctacgggaggcagcag
+S001550742	Prevotella veroralis; F0319; GQ131418	2	reverse	800	0	attagataccctggtagtcc
+S001558864	uncultured Prevotella sp.; 3016; FJ976202	1	forward	338	0	actcctacgggaggcagcag
+S001558864	uncultured Prevotella sp.; 3016; FJ976202	2	reverse	782	0	attagataccctggtagtcc
+S001558865	uncultured Prevotella sp.; 3083; FJ976203	1	forward	335	0	actcctacgggaggcagcag
+S001558865	uncultured Prevotella sp.; 3083; FJ976203	2	reverse	779	0	attagataccctggtagtcc
+S001558870	uncultured Prevotella sp.; 3459; FJ976208	1	forward	337	0	actcctacgggaggcagcag
+S001558870	uncultured Prevotella sp.; 3459; FJ976208	2	reverse	781	0	attagataccctggtagtcc
+S001558875	uncultured Prevotella sp.; 3594; FJ976213	1	forward	337	0	actcctacgggaggcagcag
+S001558875	uncultured Prevotella sp.; 3594; FJ976213	2	reverse	781	0	attagataccctggtagtcc
+S001558877	uncultured Prevotella sp.; 3641; FJ976215	1	forward	337	0	actcctacgggaggcagcag
+S001558877	uncultured Prevotella sp.; 3641; FJ976215	2	reverse	781	0	attagataccctggtagtcc
+S001558878	uncultured Prevotella sp.; 3668; FJ976216	1	forward	336	0	actcctacgggaggcagcag
+S001558878	uncultured Prevotella sp.; 3668; FJ976216	2	reverse	780	0	attagataccctggtagtcc
+S001558885	uncultured Prevotella sp.; 3739; FJ976223	1	forward	337	0	actcctacgggaggcagcag
+S001558885	uncultured Prevotella sp.; 3739; FJ976223	2	reverse	781	0	attagataccctggtagtcc
+S001558886	uncultured Prevotella sp.; 3749; FJ976224	1	forward	337	0	actcctacgggaggcagcag
+S001558886	uncultured Prevotella sp.; 3749; FJ976224	2	reverse	781	0	attagataccctggtagtcc
+S001558893	uncultured Prevotella sp.; 3957; FJ976231	1	forward	337	0	actcctacgggaggcagcag
+S001558893	uncultured Prevotella sp.; 3957; FJ976231	2	reverse	781	0	attagataccctggtagtcc
+S001558908	uncultured Prevotella sp.; 6BB059; FJ976246	1	forward	348	0	actcctacgggaggcagcag
+S001558908	uncultured Prevotella sp.; 6BB059; FJ976246	2	reverse	792	0	attagataccctggtagtcc
+S001558954	uncultured Prevotella sp.; 10B027; FJ976292	1	forward	335	0	actcctacgggaggcagcag
+S001558954	uncultured Prevotella sp.; 10B027; FJ976292	2	reverse	779	0	attagataccctggtagtcc
+S001558955	uncultured Prevotella sp.; 10B037; FJ976293	1	forward	335	0	actcctacgggaggcagcag
+S001558955	uncultured Prevotella sp.; 10B037; FJ976293	2	reverse	779	0	attagataccctggtagtcc
+S001558959	uncultured Prevotella sp.; 10B071; FJ976297	1	forward	336	0	actcctacgggaggcagcag
+S001558959	uncultured Prevotella sp.; 10B071; FJ976297	2	reverse	780	0	attagataccctggtagtcc
+S001558961	uncultured Prevotella sp.; 10B127; FJ976299	1	forward	335	0	actcctacgggaggcagcag
+S001558961	uncultured Prevotella sp.; 10B127; FJ976299	2	reverse	779	0	attagataccctggtagtcc
+S001558966	uncultured Prevotella sp.; 10B333; FJ976304	1	forward	338	0	actcctacgggaggcagcag
+S001558966	uncultured Prevotella sp.; 10B333; FJ976304	2	reverse	783	0	attagataccctggtagtcc
+S001558977	uncultured Prevotella sp.; 10B640; FJ976315	1	forward	335	0	actcctacgggaggcagcag
+S001558977	uncultured Prevotella sp.; 10B640; FJ976315	2	reverse	779	0	attagataccctggtagtcc
+S001558993	uncultured Prevotella sp.; 10BB73; FJ976331	1	forward	336	0	actcctacgggaggcagcag
+S001558993	uncultured Prevotella sp.; 10BB73; FJ976331	2	reverse	780	0	attagataccctggtagtcc
+S001559004	uncultured Prevotella sp.; 12B708; FJ976342	1	forward	335	0	actcctacgggaggcagcag
+S001559004	uncultured Prevotella sp.; 12B708; FJ976342	2	reverse	779	0	attagataccctggtagtcc
+S001559020	uncultured Prevotella sp.; 17B621; FJ976358	1	forward	339	0	actcctacgggaggcagcag
+S001559020	uncultured Prevotella sp.; 17B621; FJ976358	2	reverse	783	0	attagataccctggtagtcc
+S001559021	uncultured Prevotella sp.; 17B906; FJ976359	1	forward	336	0	actcctacgggaggcagcag
+S001559021	uncultured Prevotella sp.; 17B906; FJ976359	2	reverse	780	0	attagataccctggtagtcc
+S001559029	uncultured Prevotella sp.; 18B421; FJ976367	1	forward	336	0	actcctacgggaggcagcag
+S001559029	uncultured Prevotella sp.; 18B421; FJ976367	2	reverse	780	0	attagataccctggtagtcc
+S001559040	uncultured Prevotella sp.; 22B412; FJ976378	1	forward	335	0	actcctacgggaggcagcag
+S001559040	uncultured Prevotella sp.; 22B412; FJ976378	2	reverse	779	0	attagataccctggtagtcc
+S001559053	uncultured Prevotella sp.; 24B125; FJ976391	1	forward	337	0	actcctacgggaggcagcag
+S001559053	uncultured Prevotella sp.; 24B125; FJ976391	2	reverse	781	0	attagataccctggtagtcc
+S001559074	uncultured Prevotella sp.; 24B764; FJ976412	1	forward	337	0	actcctacgggaggcagcag
+S001559074	uncultured Prevotella sp.; 24B764; FJ976412	2	reverse	781	0	attagataccctggtagtcc
+S001559076	uncultured Prevotella sp.; 24B903; FJ976414	1	forward	334	0	actcctacgggaggcagcag
+S001559076	uncultured Prevotella sp.; 24B903; FJ976414	2	reverse	778	0	attagataccctggtagtcc
+S001559097	uncultured Prevotella sp.; S203; FJ976435	1	forward	335	0	actcctacgggaggcagcag
+S001559097	uncultured Prevotella sp.; S203; FJ976435	2	reverse	779	0	attagataccctggtagtcc
+S001559102	uncultured Prevotella sp.; S702; FJ976440	1	forward	337	0	actcctacgggaggcagcag
+S001559102	uncultured Prevotella sp.; S702; FJ976440	2	reverse	781	0	attagataccctggtagtcc
+S001559107	uncultured Prevotella sp.; SA37; FJ976445	1	forward	335	0	actcctacgggaggcagcag
+S001559107	uncultured Prevotella sp.; SA37; FJ976445	2	reverse	779	0	attagataccctggtagtcc
+S001573683	Prevotella sp. 8400706; EU853438	1	forward	350	0	actcctacgggaggcagcag
+S001573683	Prevotella sp. 8400706; EU853438	2	reverse	794	0	attagataccctggtagtcc
+S001589399	Prevotella oulorum; C08KA; GQ422734	1	forward	355	0	actcctacgggaggcagcag
+S001589399	Prevotella oulorum; C08KA; GQ422734	2	reverse	799	0	attagataccctggtagtcc
+S001589405	Prevotella sp. oral taxon 781; F0055; GQ422744	1	forward	354	0	actcctacgggaggcagcag
+S001589405	Prevotella sp. oral taxon 781; F0055; GQ422744	2	reverse	798	0	attagataccctggtagtcc
+S001589406	Prevotella sp. oral taxon 782; F0012; GQ422745	1	forward	356	0	actcctacgggaggcagcag
+S001589406	Prevotella sp. oral taxon 782; F0012; GQ422745	2	reverse	800	0	attagataccctggtagtcc
+S001589483	Prevotella sp. WAL 2039G; GQ433639	1	forward	307	0	actcctacgggaggcagcag
+S001589483	Prevotella sp. WAL 2039G; GQ433639	2	reverse	751	0	attagataccctggtagtcc
+S001602639	Prevotella sp. oral taxon 292; AU120; GQ422735	1	forward	357	0	actcctacgggaggcagcag
+S001602639	Prevotella sp. oral taxon 292; AU120; GQ422735	2	reverse	801	0	attagataccctggtagtcc
+S001602640	Prevotella sp. oral taxon 310; DR022; GQ422737	1	forward	356	1	actcttacgggaggcagcag
+S001602640	Prevotella sp. oral taxon 310; DR022; GQ422737	2	reverse	800	0	attagataccctggtagtcc
+S001871449	uncultured Prevotella sp.; 10_5_G07; GU227189	1	forward	336	0	actcctacgggaggcagcag
+S001871449	uncultured Prevotella sp.; 10_5_G07; GU227189	2	reverse	780	0	attagataccctggtagtcc
+S001887703	Prevotella salivae; WWP_SS5_P01; GU409596	1	forward	335	0	actcctacgggaggcagcag
+S001887703	Prevotella salivae; WWP_SS5_P01; GU409596	2	reverse	779	1	cttagataccctggtagtcc
+S001887834	Prevotella oris; _F045; GU409727	1	forward	335	0	actcctacgggaggcagcag
+S001887834	Prevotella oris; _F045; GU409727	2	reverse	778	0	attagataccctggtagtcc
+S001910221	Prevotella sp. oral taxon G60; WWP_SS5_G16; GU432133	1	forward	335	0	actcctacgggaggcagcag
+S001910221	Prevotella sp. oral taxon G60; WWP_SS5_G16; GU432133	2	reverse	779	0	attagataccctggtagtcc
+S001910578	Prevotella nigrescens; F0103; GU470890	1	forward	356	0	actcctacgggaggcagcag
+S001910578	Prevotella nigrescens; F0103; GU470890	2	reverse	800	0	attagataccctggtagtcc
+S001910586	Prevotella denticola F0289; GU470898	1	forward	356	0	actcctacgggaggcagcag
+S001910586	Prevotella denticola F0289; GU470898	2	reverse	800	0	attagataccctggtagtcc
+S001910594	Prevotella oulorum; F0390; GU470906	1	forward	354	0	actcctacgggaggcagcag
+S001910594	Prevotella oulorum; F0390; GU470906	2	reverse	798	0	attagataccctggtagtcc
+S002034902	Prevotella intermedia; GRG13; GU561340	1	forward	318	0	actcctacgggaggcagcag
+S002034902	Prevotella intermedia; GRG13; GU561340	2	reverse	763	0	attagataccctggtagtcc
+S002034903	Prevotella buccae; GRG11; GU561341	1	forward	306	0	actcctacgggaggcagcag
+S002034903	Prevotella buccae; GRG11; GU561341	2	reverse	748	0	attagataccctggtagtcc
+S002034904	Prevotella maculosa; GEJ21; GU561342	1	forward	322	0	actcctacgggaggcagcag
+S002034904	Prevotella maculosa; GEJ21; GU561342	2	reverse	765	0	attagataccctggtagtcc
+S002034905	Prevotella sp. SG12; GU561343	1	forward	272	0	actcctacgggaggcagcag
+S002034905	Prevotella sp. SG12; GU561343	2	reverse	717	0	attagataccctggtagtcc
+S002034908	Prevotella melaninogenica; H2_18; GU561346	1	forward	323	0	actcctacgggaggcagcag
+S002034908	Prevotella melaninogenica; H2_18; GU561346	2	reverse	766	0	attagataccctggtagtcc
+S002034909	Prevotella melaninogenica; SG14; GU561347	1	forward	235	0	actcctacgggaggcagcag
+S002034909	Prevotella melaninogenica; SG14; GU561347	2	reverse	668	0	attagataccctggtagtcc
+S002034911	Prevotella loescheii; SG4; GU561349	1	forward	314	0	actcctacgggaggcagcag
+S002034911	Prevotella loescheii; SG4; GU561349	2	reverse	759	0	attagataccctggtagtcc
+S002034914	Prevotella nanceiensis; H1_17; GU561352	1	forward	320	0	actcctacgggaggcagcag
+S002034914	Prevotella nanceiensis; H1_17; GU561352	2	reverse	764	0	attagataccctggtagtcc
+S002034915	Prevotella oralis; H1_2; GU561353	1	forward	324	0	actcctacgggaggcagcag
+S002034915	Prevotella oralis; H1_2; GU561353	2	reverse	768	0	attagataccctggtagtcc
+S002034916	Prevotella pallens; PTO15; GU561354	1	forward	307	0	actcctacgggaggcagcag
+S002034916	Prevotella pallens; PTO15; GU561354	2	reverse	743	0	attagataccctggtagtcc
+S002038832	Prevotella ruminicola; BP1-32; AB501151	1	forward	355	0	actcctacgggaggcagcag
+S002038832	Prevotella ruminicola; BP1-32; AB501151	2	reverse	799	0	attagataccctggtagtcc
+S002038833	Prevotella ruminicola; BP1-34; AB501152	1	forward	355	0	actcctacgggaggcagcag
+S002038833	Prevotella ruminicola; BP1-34; AB501152	2	reverse	799	0	attagataccctggtagtcc
+S002038834	Prevotella ruminicola; BP1-40; AB501153	1	forward	355	0	actcctacgggaggcagcag
+S002038834	Prevotella ruminicola; BP1-40; AB501153	2	reverse	799	0	attagataccctggtagtcc
+S002038835	Prevotella ruminicola; BP1-41; AB501154	1	forward	355	0	actcctacgggaggcagcag
+S002038835	Prevotella ruminicola; BP1-41; AB501154	2	reverse	799	0	attagataccctggtagtcc
+S002038836	Prevotella sp. BP1-56; AB501155	1	forward	355	0	actcctacgggaggcagcag
+S002038836	Prevotella sp. BP1-56; AB501155	2	reverse	799	0	attagataccctggtagtcc
+S002038837	Prevotella ruminicola; BP1-59; AB501156	1	forward	355	0	actcctacgggaggcagcag
+S002038837	Prevotella ruminicola; BP1-59; AB501156	2	reverse	799	0	attagataccctggtagtcc
+S002038838	Prevotella ruminicola; BP1-60; AB501157	1	forward	355	0	actcctacgggaggcagcag
+S002038838	Prevotella ruminicola; BP1-60; AB501157	2	reverse	799	0	attagataccctggtagtcc
+S002038839	Prevotella ruminicola; BP1-64; AB501158	1	forward	355	0	actcctacgggaggcagcag
+S002038839	Prevotella ruminicola; BP1-64; AB501158	2	reverse	799	0	attagataccctggtagtcc
+S002038840	Prevotella ruminicola; BP1-68; AB501159	1	forward	355	0	actcctacgggaggcagcag
+S002038840	Prevotella ruminicola; BP1-68; AB501159	2	reverse	799	0	attagataccctggtagtcc
+S002038841	Prevotella ruminicola; BP1-70; AB501160	1	forward	355	0	actcctacgggaggcagcag
+S002038841	Prevotella ruminicola; BP1-70; AB501160	2	reverse	799	0	attagataccctggtagtcc
+S002038842	Prevotella ruminicola; BP1-76; AB501161	1	forward	355	0	actcctacgggaggcagcag
+S002038842	Prevotella ruminicola; BP1-76; AB501161	2	reverse	799	0	attagataccctggtagtcc
+S002038843	Prevotella ruminicola; BP1-80; AB501162	1	forward	355	0	actcctacgggaggcagcag
+S002038843	Prevotella ruminicola; BP1-80; AB501162	2	reverse	799	0	attagataccctggtagtcc
+S002038844	Prevotella ruminicola; BP1-90; AB501163	1	forward	355	0	actcctacgggaggcagcag
+S002038844	Prevotella ruminicola; BP1-90; AB501163	2	reverse	799	0	attagataccctggtagtcc
+S002038845	Prevotella ruminicola; BP1-95; AB501164	1	forward	355	0	actcctacgggaggcagcag
+S002038845	Prevotella ruminicola; BP1-95; AB501164	2	reverse	799	0	attagataccctggtagtcc
+S002038846	Prevotella sp. BP1-145; AB501165	1	forward	355	0	actcctacgggaggcagcag
+S002038846	Prevotella sp. BP1-145; AB501165	2	reverse	799	0	attagataccctggtagtcc
+S002038847	Prevotella sp. BP1-148; AB501166	1	forward	355	0	actcctacgggaggcagcag
+S002038847	Prevotella sp. BP1-148; AB501166	2	reverse	799	0	attagataccctggtagtcc
+S002038848	Prevotella ruminicola; BP1-162; AB501167	1	forward	355	0	actcctacgggaggcagcag
+S002038848	Prevotella ruminicola; BP1-162; AB501167	2	reverse	799	0	attagataccctggtagtcc
+S002038849	Prevotella ruminicola; BP5-11; AB501168	1	forward	355	0	actcctacgggaggcagcag
+S002038849	Prevotella ruminicola; BP5-11; AB501168	2	reverse	799	0	attagataccctggtagtcc
+S002038850	Prevotella ruminicola; BP5-13; AB501169	1	forward	355	0	actcctacgggaggcagcag
+S002038850	Prevotella ruminicola; BP5-13; AB501169	2	reverse	799	0	attagataccctggtagtcc
+S002038851	Prevotella brevis; BP5-19; AB501170	1	forward	355	0	actcctacgggaggcagcag
+S002038851	Prevotella brevis; BP5-19; AB501170	2	reverse	799	0	attagataccctggtagtcc
+S002038852	Prevotella ruminicola; BP15-27; AB501171	1	forward	355	0	actcctacgggaggcagcag
+S002038852	Prevotella ruminicola; BP15-27; AB501171	2	reverse	799	0	attagataccctggtagtcc
+S002038853	Prevotella ruminicola; AC5-4; AB501172	1	forward	355	0	actcctacgggaggcagcag
+S002038853	Prevotella ruminicola; AC5-4; AB501172	2	reverse	799	0	attagataccctggtagtcc
+S002038854	Prevotella ruminicola; AC5-13; AB501173	1	forward	355	0	actcctacgggaggcagcag
+S002038854	Prevotella ruminicola; AC5-13; AB501173	2	reverse	799	0	attagataccctggtagtcc
+S002038855	Prevotella ruminicola; AC5-20; AB501174	1	forward	355	0	actcctacgggaggcagcag
+S002038855	Prevotella ruminicola; AC5-20; AB501174	2	reverse	799	0	attagataccctggtagtcc
+S002038856	Prevotella brevis; AC15-1; AB501175	1	forward	355	0	actcctacgggaggcagcag
+S002038856	Prevotella brevis; AC15-1; AB501175	2	reverse	799	0	attagataccctggtagtcc
+S002038857	Prevotella brevis; AC30-48; AB501176	1	forward	355	0	actcctacgggaggcagcag
+S002038857	Prevotella brevis; AC30-48; AB501176	2	reverse	799	0	attagataccctggtagtcc
+S002038858	Prevotella brevis; AC30-51; AB501177	1	forward	355	0	actcctacgggaggcagcag
+S002038858	Prevotella brevis; AC30-51; AB501177	2	reverse	799	0	attagataccctggtagtcc
+S002167187	Prevotella ruminicola; CLRI2; HM000124	1	forward	354	0	actcctacgggaggcagcag
+S002167187	Prevotella ruminicola; CLRI2; HM000124	2	reverse	796	0	attagataccctggtagtcc
+S002232079	Prevotella histicola; F0411; HM596283	1	forward	356	0	actcctacgggaggcagcag
+S002232079	Prevotella histicola; F0411; HM596283	2	reverse	800	0	attagataccctggtagtcc
+S002232080	Prevotella micans; F0438; HM596284	1	forward	354	0	actcctacgggaggcagcag
+S002232080	Prevotella micans; F0438; HM596284	2	reverse	798	0	attagataccctggtagtcc
+S002235851	Prevotella albensis; JCM 12258; AB547669	1	forward	345	0	actcctacgggaggcagcag
+S002235851	Prevotella albensis; JCM 12258; AB547669	2	reverse	789	0	attagataccctggtagtcc
+S002235852	Prevotella amnii; JCM 14753; AB547670	1	forward	355	0	actcctacgggaggcagcag
+S002235852	Prevotella amnii; JCM 14753; AB547670	2	reverse	799	0	attagataccctggtagtcc
+S002235853	Prevotella baroniae; JCM 13447; AB547671	1	forward	357	0	actcctacgggaggcagcag
+S002235853	Prevotella baroniae; JCM 13447; AB547671	2	reverse	801	0	attagataccctggtagtcc
+S002235854	Prevotella bergensis; JCM 13869; AB547672	1	forward	357	0	actcctacgggaggcagcag
+S002235854	Prevotella bergensis; JCM 13869; AB547672	2	reverse	801	0	attagataccctggtagtcc
+S002235855	Prevotella bivia; JCM 6331; AB547673	1	forward	355	0	actcctacgggaggcagcag
+S002235855	Prevotella bivia; JCM 6331; AB547673	2	reverse	799	0	attagataccctggtagtcc
+S002235856	Prevotella bivia; JCM 6332; AB547674	1	forward	344	0	actcctacgggaggcagcag
+S002235856	Prevotella bivia; JCM 6332; AB547674	2	reverse	788	0	attagataccctggtagtcc
+S002235857	Prevotella buccae; JCM 12245; AB547675	1	forward	342	0	actcctacgggaggcagcag
+S002235857	Prevotella buccae; JCM 12245; AB547675	2	reverse	786	0	attagataccctggtagtcc
+S002235858	Prevotella buccalis; JCM 12246; AB547676	1	forward	355	0	actcctacgggaggcagcag
+S002235858	Prevotella buccalis; JCM 12246; AB547676	2	reverse	799	0	attagataccctggtagtcc
+S002235859	Prevotella corporis; JCM 8529; AB547677	1	forward	344	0	actcctacgggaggcagcag
+S002235859	Prevotella corporis; JCM 8529; AB547677	2	reverse	788	0	attagataccctggtagtcc
+S002235861	Prevotella denticola; JCM 13449; AB547679	1	forward	357	0	actcctacgggaggcagcag
+S002235861	Prevotella denticola; JCM 13449; AB547679	2	reverse	801	0	attagataccctggtagtcc
+S002235862	Prevotella denticola; JCM 8528; AB547680	1	forward	344	0	actcctacgggaggcagcag
+S002235862	Prevotella denticola; JCM 8528; AB547680	2	reverse	788	0	attagataccctggtagtcc
+S002235863	Prevotella dentasini; JCM 15908; AB547681	1	forward	359	0	actcctacgggaggcagcag
+S002235863	Prevotella dentasini; JCM 15908; AB547681	2	reverse	803	0	attagataccctggtagtcc
+S002235864	Prevotella disiens; JCM 6334; AB547682	1	forward	357	0	actcctacgggaggcagcag
+S002235864	Prevotella disiens; JCM 6334; AB547682	2	reverse	801	0	attagataccctggtagtcc
+S002235865	Prevotella disiens; JCM 6333; AB547683	1	forward	345	0	actcctacgggaggcagcag
+S002235865	Prevotella disiens; JCM 6333; AB547683	2	reverse	789	0	attagataccctggtagtcc
+S002235866	Prevotella enoeca; JCM 12259; AB547684	1	forward	344	0	actcctacgggaggcagcag
+S002235866	Prevotella enoeca; JCM 12259; AB547684	2	reverse	788	0	attagataccctggtagtcc
+S002235867	Prevotella histicola; JCM 15637; AB547685	1	forward	345	0	actcctacgggaggcagcag
+S002235867	Prevotella histicola; JCM 15637; AB547685	2	reverse	789	0	attagataccctggtagtcc
+S002235869	Prevotella intermedia; JCM 11150; AB547687	1	forward	244	0	actcctacgggaggcagcag
+S002235869	Prevotella intermedia; JCM 11150; AB547687	2	reverse	689	0	attagataccctggtagtcc
+S002235870	Prevotella loescheii; JCM 12249; AB547688	1	forward	355	0	actcctacgggaggcagcag
+S002235870	Prevotella loescheii; JCM 12249; AB547688	2	reverse	799	0	attagataccctggtagtcc
+S002235871	Prevotella loescheii; JCM 8530; AB547689	1	forward	341	0	actcctacgggaggcagcag
+S002235871	Prevotella loescheii; JCM 8530; AB547689	2	reverse	785	0	attagataccctggtagtcc
+S002235872	Prevotella maculosa; JCM 15638; AB547690	1	forward	268	0	actcctacgggaggcagcag
+S002235872	Prevotella maculosa; JCM 15638; AB547690	2	reverse	712	0	attagataccctggtagtcc
+S002235873	Prevotella marshii; JCM 13450; AB547691	1	forward	355	0	actcctacgggaggcagcag
+S002235873	Prevotella marshii; JCM 13450; AB547691	2	reverse	799	0	attagataccctggtagtcc
+S002235874	Prevotella micans; JCM 16134; AB547692	1	forward	355	0	actcctacgggaggcagcag
+S002235874	Prevotella micans; JCM 16134; AB547692	2	reverse	799	0	attagataccctggtagtcc
+S002235875	Prevotella melaninogenica; JCM 6325; AB547693	1	forward	345	0	actcctacgggaggcagcag
+S002235875	Prevotella melaninogenica; JCM 6325; AB547693	2	reverse	789	0	attagataccctggtagtcc
+S002235876	Prevotella melaninogenica; JCM 6321; AB547694	1	forward	344	0	actcctacgggaggcagcag
+S002235876	Prevotella melaninogenica; JCM 6321; AB547694	2	reverse	788	0	attagataccctggtagtcc
+S002235877	Prevotella nanceiensis; JCM 15639; AB547695	1	forward	354	0	actcctacgggaggcagcag
+S002235877	Prevotella nanceiensis; JCM 15639; AB547695	2	reverse	798	0	attagataccctggtagtcc
+S002235878	Prevotella nigrescens; JCM 12250; AB547696	1	forward	144	0	actcctacgggaggcagcag
+S002235878	Prevotella nigrescens; JCM 12250; AB547696	2	reverse	588	0	attagataccctggtagtcc
+S002235879	Prevotella nigrescens; JCM 6322; AB547697	1	forward	344	0	actcctacgggaggcagcag
+S002235879	Prevotella nigrescens; JCM 6322; AB547697	2	reverse	788	0	attagataccctggtagtcc
+S002235880	Prevotella oralis; JCM 12251; AB547698	1	forward	360	0	actcctacgggaggcagcag
+S002235880	Prevotella oralis; JCM 12251; AB547698	2	reverse	804	0	attagataccctggtagtcc
+S002235881	Prevotella sp. JCM 6330; AB547699	1	forward	344	0	actcctacgggaggcagcag
+S002235881	Prevotella sp. JCM 6330; AB547699	2	reverse	788	0	attagataccctggtagtcc
+S002235882	Prevotella oris; JCM 12252; AB547700	1	forward	344	0	actcctacgggaggcagcag
+S002235882	Prevotella oris; JCM 12252; AB547700	2	reverse	788	0	attagataccctggtagtcc
+S002235883	Prevotella oris; JCM 8540; AB547701	1	forward	344	0	actcctacgggaggcagcag
+S002235883	Prevotella oris; JCM 8540; AB547701	2	reverse	788	0	attagataccctggtagtcc
+S002235884	Prevotella oulorum; JCM 14966; AB547702	1	forward	355	0	actcctacgggaggcagcag
+S002235884	Prevotella oulorum; JCM 14966; AB547702	2	reverse	799	0	attagataccctggtagtcc
+S002235885	Prevotella pallens; JCM 11140; AB547703	1	forward	357	0	actcctacgggaggcagcag
+S002235885	Prevotella pallens; JCM 11140; AB547703	2	reverse	801	0	attagataccctggtagtcc
+S002235886	Prevotella paludivivens; JCM 13650; AB547704	1	forward	355	0	actcctacgggaggcagcag
+S002235886	Prevotella paludivivens; JCM 13650; AB547704	2	reverse	799	0	attagataccctggtagtcc
+S002235887	Prevotella paludivivens; JCM 13651; AB547705	1	forward	355	0	actcctacgggaggcagcag
+S002235887	Prevotella paludivivens; JCM 13651; AB547705	2	reverse	799	0	attagataccctggtagtcc
+S002235888	Prevotella timonensis; JCM 15640; AB547706	1	forward	355	0	actcctacgggaggcagcag
+S002235888	Prevotella timonensis; JCM 15640; AB547706	2	reverse	799	0	attagataccctggtagtcc
+S002235889	Prevotella veroralis; JCM 6290; AB547707	1	forward	357	0	actcctacgggaggcagcag
+S002235889	Prevotella veroralis; JCM 6290; AB547707	2	reverse	801	0	attagataccctggtagtcc
+S002287110	Prevotella ruminicola 23; Bryant 23; CP002006	1	forward	362	0	actcctacgggaggcagcag
+S002287110	Prevotella ruminicola 23; Bryant 23; CP002006	2	reverse	806	0	attagataccctggtagtcc
+S002289987	Prevotella ruminicola 23; Bryant 23; CP002006	1	forward	362	0	actcctacgggaggcagcag
+S002289987	Prevotella ruminicola 23; Bryant 23; CP002006	2	reverse	806	0	attagataccctggtagtcc
+S002290126	Prevotella melaninogenica (T); ATCC 25845; CP002122	1	forward	364	0	actcctacgggaggcagcag
+S002290126	Prevotella melaninogenica (T); ATCC 25845; CP002122	2	reverse	808	0	attagataccctggtagtcc
+S002290841	Prevotella ruminicola 23; Bryant 23; CP002006	1	forward	362	0	actcctacgggaggcagcag
+S002290841	Prevotella ruminicola 23; Bryant 23; CP002006	2	reverse	806	0	attagataccctggtagtcc
+S002343555	uncultured Prevotella sp.; TT0131; HQ616303	1	forward	335	0	actcctacgggaggcagcag
+S002343555	uncultured Prevotella sp.; TT0131; HQ616303	2	reverse	779	0	attagataccctggtagtcc
+S002343556	uncultured Prevotella sp.; T2277; HQ616304	1	forward	314	0	actcctacgggaggcagcag
+S002343556	uncultured Prevotella sp.; T2277; HQ616304	2	reverse	759	0	attagataccctggtagtcc
+S002343558	uncultured Prevotella sp.; T0877; HQ616306	1	forward	335	0	actcctacgggaggcagcag
+S002343558	uncultured Prevotella sp.; T0877; HQ616306	2	reverse	779	0	attagataccctggtagtcc
+S002343559	uncultured Prevotella sp.; T0654; HQ616307	1	forward	337	0	actcctacgggaggcagcag
+S002343559	uncultured Prevotella sp.; T0654; HQ616307	2	reverse	781	0	attagataccctggtagtcc
+S002352500	Prevotella sp. CM38; HQ610181	1	forward	340	0	actcctacgggaggcagcag
+S002352500	Prevotella sp. CM38; HQ610181	2	reverse	784	0	attagataccctggtagtcc
+S002352509	Prevotella sp. CM75; HQ610190	1	forward	255	0	actcctacgggaggcagcag
+S002352509	Prevotella sp. CM75; HQ610190	2	reverse	699	0	attagataccctggtagtcc
+S002352611	Prevotella sp. ICM1; HQ616385	1	forward	339	0	actcctacgggaggcagcag
+S002352611	Prevotella sp. ICM1; HQ616385	2	reverse	783	0	attagataccctggtagtcc
+S002352625	Prevotella sp. ICM55; HQ616399	1	forward	330	0	actcctacgggaggcagcag
+S002352625	Prevotella sp. ICM55; HQ616399	2	reverse	774	0	attagataccctggtagtcc
+S002355135	Prevotella saccharolytica; JCM 17484; AB616135	1	forward	355	0	actcctacgggaggcagcag
+S002355135	Prevotella saccharolytica; JCM 17484; AB616135	2	reverse	799	0	attagataccctggtagtcc
+S002869288	uncultured Prevotella sp.; HLB-33; JF795441	1	forward	356	0	actcctacgggaggcagcag
+S002869288	uncultured Prevotella sp.; HLB-33; JF795441	2	reverse	800	0	attagataccctggtagtcc
+S002869291	uncultured Prevotella sp.; HLB-59; JF795444	1	forward	347	0	actcctacgggaggcagcag
+S002869291	uncultured Prevotella sp.; HLB-59; JF795444	2	reverse	791	0	attagataccctggtagtcc
+S002949853	Prevotella copri; JCM 13464; AB649279	1	forward	357	0	actcctacgggaggcagcag
+S002949853	Prevotella copri; JCM 13464; AB649279	2	reverse	801	0	attagataccctggtagtcc
+S002950935	Candidatus Prevotella conceptionensis; 8403923; HM587316	1	forward	335	0	actcctacgggaggcagcag
+S002950935	Candidatus Prevotella conceptionensis; 8403923; HM587316	2	reverse	779	0	attagataccctggtagtcc
+S002950936	Prevotella sp. 8404125; HM587317	1	forward	356	0	actcctacgggaggcagcag
+S002950936	Prevotella sp. 8404125; HM587317	2	reverse	801	0	attagataccctggtagtcc
+S002950945	Candidatus Prevotella conceptionensis; 9403948; HM587326	1	forward	353	0	actcctacgggaggcagcag
+S002950945	Candidatus Prevotella conceptionensis; 9403948; HM587326	2	reverse	798	0	attagataccctggtagtcc
+S002961857	Prevotella sp. BV3P1; JN809764	1	forward	308	0	actcctacgggaggcagcag
+S002961857	Prevotella sp. BV3P1; JN809764	2	reverse	752	0	attagataccctggtagtcc
+S002961867	Prevotella sp. BV3C7; JN809774	1	forward	330	0	actcctacgggaggcagcag
+S002961867	Prevotella sp. BV3C7; JN809774	2	reverse	774	0	attagataccctggtagtcc
+S002963236	Prevotella sp. SEQ053; JN867222	1	forward	307	0	actcctacgggaggcagcag
+S002963236	Prevotella sp. SEQ053; JN867222	2	reverse	751	0	attagataccctggtagtcc
+S002963237	Prevotella oralis; SEQ054; JN867223	1	forward	310	0	actcctacgggaggcagcag
+S002963237	Prevotella oralis; SEQ054; JN867223	2	reverse	754	0	attagataccctggtagtcc
+S002963238	Prevotella timonensis; SEQ055; JN867224	1	forward	305	0	actcctacgggaggcagcag
+S002963238	Prevotella timonensis; SEQ055; JN867224	2	reverse	749	0	attagataccctggtagtcc
+S002963240	Prevotella buccalis; SEQ057; JN867226	1	forward	264	0	actcctacgggaggcagcag
+S002963240	Prevotella buccalis; SEQ057; JN867226	2	reverse	708	0	attagataccctggtagtcc
+S002963241	Prevotella disiens; SEQ058; JN867227	1	forward	354	0	actcctacgggaggcagcag
+S002963241	Prevotella disiens; SEQ058; JN867227	2	reverse	798	0	attagataccctggtagtcc
+S002963242	Prevotella nanceiensis; SEQ059; JN867228	1	forward	343	0	actcctacgggaggcagcag
+S002963242	Prevotella nanceiensis; SEQ059; JN867228	2	reverse	787	0	attagataccctggtagtcc
+S002963243	Prevotella oris; SEQ060; JN867229	1	forward	305	0	actcctacgggaggcagcag
+S002963243	Prevotella oris; SEQ060; JN867229	2	reverse	749	0	attagataccctggtagtcc
+S002963244	Prevotella veroralis; SEQ061; JN867230	1	forward	306	0	actcctacgggaggcagcag
+S002963244	Prevotella veroralis; SEQ061; JN867230	2	reverse	750	0	attagataccctggtagtcc
+S002963245	Prevotella loescheii; SEQ062; JN867231	1	forward	243	0	actcctacgggaggcagcag
+S002963245	Prevotella loescheii; SEQ062; JN867231	2	reverse	687	0	attagataccctggtagtcc
+S002963246	Prevotella denticola; SEQ063; JN867232	1	forward	356	0	actcctacgggaggcagcag
+S002963246	Prevotella denticola; SEQ063; JN867232	2	reverse	801	0	attagataccctggtagtcc
+S002963247	Prevotella salivae; SEQ064; JN867233	1	forward	352	0	actcctacgggaggcagcag
+S002963247	Prevotella salivae; SEQ064; JN867233	2	reverse	796	0	attagataccctggtagtcc
+S002963248	Prevotella sp. SEQ065; JN867234	1	forward	306	0	actcctacgggaggcagcag
+S002963248	Prevotella sp. SEQ065; JN867234	2	reverse	750	0	attagataccctggtagtcc
+S002963249	Prevotella intermedia; SEQ067; JN867235	1	forward	278	0	actcctacgggaggcagcag
+S002963249	Prevotella intermedia; SEQ067; JN867235	2	reverse	723	0	attagataccctggtagtcc
+S002963250	Prevotella nigrescens; SEQ070; JN867236	1	forward	278	0	actcctacgggaggcagcag
+S002963250	Prevotella nigrescens; SEQ070; JN867236	2	reverse	722	0	attagataccctggtagtcc
+S002963251	Prevotella salivae; SEQ071; JN867237	1	forward	350	0	actcctacgggaggcagcag
+S002963251	Prevotella salivae; SEQ071; JN867237	2	reverse	794	0	attagataccctggtagtcc
+S002963252	Prevotella sp. SEQ072; JN867238	1	forward	352	0	actcctacgggaggcagcag
+S002963252	Prevotella sp. SEQ072; JN867238	2	reverse	796	0	attagataccctggtagtcc
+S002963253	Prevotella bergensis; SEQ073; JN867239	1	forward	354	0	actcctacgggaggcagcag
+S002963253	Prevotella bergensis; SEQ073; JN867239	2	reverse	798	0	attagataccctggtagtcc
+S002963254	Prevotella melaninogenica; SEQ074; JN867240	1	forward	354	0	actcctacgggaggcagcag
+S002963254	Prevotella melaninogenica; SEQ074; JN867240	2	reverse	798	0	attagataccctggtagtcc
+S002963255	Prevotella histicola; SEQ075; JN867241	1	forward	222	0	actcctacgggaggcagcag
+S002963255	Prevotella histicola; SEQ075; JN867241	2	reverse	666	0	attagataccctggtagtcc
+S002963256	Prevotella denticola; SEQ076; JN867242	1	forward	345	0	actcctacgggaggcagcag
+S002963256	Prevotella denticola; SEQ076; JN867242	2	reverse	789	0	attagataccctggtagtcc
+S002963257	Prevotella buccalis; SEQ077; JN867243	1	forward	269	0	actcctacgggaggcagcag
+S002963257	Prevotella buccalis; SEQ077; JN867243	2	reverse	713	0	attagataccctggtagtcc
+S002963258	Prevotella bivia; SEQ078; JN867244	1	forward	355	0	actcctacgggaggcagcag
+S002963258	Prevotella bivia; SEQ078; JN867244	2	reverse	801	0	attagataccctggtagtcc
+S002963259	Prevotella melaninogenica; SEQ115; JN867245	1	forward	302	0	actcctacgggaggcagcag
+S002963259	Prevotella melaninogenica; SEQ115; JN867245	2	reverse	746	0	attagataccctggtagtcc
+S002963261	Prevotella melaninogenica; SEQ117; JN867247	1	forward	354	0	actcctacgggaggcagcag
+S002963261	Prevotella melaninogenica; SEQ117; JN867247	2	reverse	798	0	attagataccctggtagtcc
+S002963262	Prevotella bivia; SEQ171; JN867248	1	forward	342	0	actcctacgggaggcagcag
+S002963262	Prevotella bivia; SEQ171; JN867248	2	reverse	786	0	attagataccctggtagtcc
+S002963263	Prevotella bivia; SEQ173; JN867249	1	forward	350	0	actcctacgggaggcagcag
+S002963263	Prevotella bivia; SEQ173; JN867249	2	reverse	794	0	attagataccctggtagtcc
+S002963264	Prevotella bivia; SEQ174; JN867250	1	forward	343	0	actcctacgggaggcagcag
+S002963264	Prevotella bivia; SEQ174; JN867250	2	reverse	787	0	attagataccctggtagtcc
+S002963265	Prevotella bivia; SEQ175; JN867251	1	forward	342	0	actcctacgggaggcagcag
+S002963265	Prevotella bivia; SEQ175; JN867251	2	reverse	786	0	attagataccctggtagtcc
+S002963266	Prevotella corporis; SEQ176; JN867252	1	forward	352	0	actcctacgggaggcagcag
+S002963266	Prevotella corporis; SEQ176; JN867252	2	reverse	796	0	attagataccctggtagtcc
+S002963267	Prevotella disiens; SEQ177; JN867253	1	forward	346	0	actcctacgggaggcagcag
+S002963267	Prevotella disiens; SEQ177; JN867253	2	reverse	790	0	attagataccctggtagtcc
+S002963268	Prevotella disiens; SEQ178; JN867254	1	forward	345	0	actcctacgggaggcagcag
+S002963268	Prevotella disiens; SEQ178; JN867254	2	reverse	789	0	attagataccctggtagtcc
+S002963269	Prevotella corporis; SEQ179; JN867255	1	forward	352	0	actcctacgggaggcagcag
+S002963269	Prevotella corporis; SEQ179; JN867255	2	reverse	796	0	attagataccctggtagtcc
+S002963270	Prevotella buccae; SEQ180; JN867256	1	forward	343	0	actcctacgggaggcagcag
+S002963270	Prevotella buccae; SEQ180; JN867256	2	reverse	787	0	attagataccctggtagtcc
+S002963271	Prevotella buccae; SEQ181; JN867257	1	forward	342	0	actcctacgggaggcagcag
+S002963271	Prevotella buccae; SEQ181; JN867257	2	reverse	786	0	attagataccctggtagtcc
+S002963272	Prevotella melaninogenica; SEQ182; JN867258	1	forward	268	0	actcctacgggaggcagcag
+S002963272	Prevotella melaninogenica; SEQ182; JN867258	2	reverse	712	0	attagataccctggtagtcc
+S002963273	Prevotella bivia; SEQ184; JN867259	1	forward	331	0	actcctacgggaggcagcag
+S002963273	Prevotella bivia; SEQ184; JN867259	2	reverse	775	0	attagataccctggtagtcc
+S002963274	Prevotella bivia; SEQ185; JN867260	1	forward	343	0	actcctacgggaggcagcag
+S002963274	Prevotella bivia; SEQ185; JN867260	2	reverse	787	0	attagataccctggtagtcc
+S002963275	Prevotella buccalis; SEQ186; JN867261	1	forward	342	0	actcctacgggaggcagcag
+S002963275	Prevotella buccalis; SEQ186; JN867261	2	reverse	786	0	attagataccctggtagtcc
+S002963276	Prevotella bivia; SEQ187; JN867262	1	forward	343	0	actcctacgggaggcagcag
+S002963276	Prevotella bivia; SEQ187; JN867262	2	reverse	787	0	attagataccctggtagtcc
+S002963277	Prevotella denticola; SEQ188; JN867263	1	forward	344	0	actcctacgggaggcagcag
+S002963277	Prevotella denticola; SEQ188; JN867263	2	reverse	788	0	attagataccctggtagtcc
+S002963278	Prevotella melaninogenica; SEQ189; JN867264	1	forward	342	0	actcctacgggaggcagcag
+S002963278	Prevotella melaninogenica; SEQ189; JN867264	2	reverse	786	0	attagataccctggtagtcc
+S002963279	Prevotella bivia; SEQ190; JN867265	1	forward	345	0	actcctacgggaggcagcag
+S002963279	Prevotella bivia; SEQ190; JN867265	2	reverse	789	0	attagataccctggtagtcc
+S002963280	Prevotella buccae; SEQ191; JN867266	1	forward	350	0	actcctacgggaggcagcag
+S002963280	Prevotella buccae; SEQ191; JN867266	2	reverse	794	0	attagataccctggtagtcc
+S002963281	Prevotella bivia; SEQ192; JN867267	1	forward	350	0	actcctacgggaggcagcag
+S002963281	Prevotella bivia; SEQ192; JN867267	2	reverse	794	0	attagataccctggtagtcc
+S002963282	Prevotella intermedia; SEQ193; JN867268	1	forward	346	0	actcctacgggaggcagcag
+S002963282	Prevotella intermedia; SEQ193; JN867268	2	reverse	791	0	attagataccctggtagtcc
+S002963283	Prevotella buccae; SEQ194; JN867269	1	forward	339	0	actcctacgggaggcagcag
+S002963283	Prevotella buccae; SEQ194; JN867269	2	reverse	785	0	attagataccctggtagtcc
+S002963284	Prevotella bivia; SEQ195; JN867270	1	forward	489	0	actcctacgggaggcagcag
+S002963284	Prevotella bivia; SEQ195; JN867270	2	reverse	933	0	attagataccctggtagtcc
+S002963284	Prevotella bivia; SEQ195; JN867270	2	reverse	125	1	attagataccstggtagtcc
+S002963285	Prevotella corporis; SEQ196; JN867271	1	forward	341	0	actcctacgggaggcagcag
+S002963285	Prevotella corporis; SEQ196; JN867271	2	reverse	785	0	attagataccctggtagtcc
+S002963286	Prevotella denticola; SEQ197; JN867272	1	forward	351	0	actcctacgggaggcagcag
+S002963286	Prevotella denticola; SEQ197; JN867272	2	reverse	795	0	attagataccctggtagtcc
+S002963287	Prevotella bivia; SEQ198; JN867273	1	forward	342	0	actcctacgggaggcagcag
+S002963287	Prevotella bivia; SEQ198; JN867273	2	reverse	786	0	attagataccctggtagtcc
+S002963288	Prevotella bivia; SEQ199; JN867274	1	forward	343	0	actcctacgggaggcagcag
+S002963288	Prevotella bivia; SEQ199; JN867274	2	reverse	787	0	attagataccctggtagtcc
+S002963289	Prevotella denticola; SEQ200; JN867275	1	forward	344	0	actcctacgggaggcagcag
+S002963289	Prevotella denticola; SEQ200; JN867275	2	reverse	788	0	attagataccctggtagtcc
+S002963290	Prevotella disiens; SEQ201; JN867276	1	forward	345	0	actcctacgggaggcagcag
+S002963290	Prevotella disiens; SEQ201; JN867276	2	reverse	789	0	attagataccctggtagtcc
+S002963291	Prevotella denticola; SEQ202; JN867277	1	forward	351	0	actcctacgggaggcagcag
+S002963291	Prevotella denticola; SEQ202; JN867277	2	reverse	795	0	attagataccctggtagtcc
+S002963292	Prevotella nanceiensis; SEQ203; JN867278	1	forward	341	0	actcctacgggaggcagcag
+S002963292	Prevotella nanceiensis; SEQ203; JN867278	2	reverse	785	0	attagataccctggtagtcc
+S002963293	Prevotella bivia; SEQ204; JN867279	1	forward	339	0	actcctacgggaggcagcag
+S002963293	Prevotella bivia; SEQ204; JN867279	2	reverse	783	0	attagataccctggtagtcc
+S002963294	Prevotella buccae; SEQ205; JN867280	1	forward	339	0	actcctacgggaggcagcag
+S002963294	Prevotella buccae; SEQ205; JN867280	2	reverse	783	0	attagataccctggtagtcc
+S002963295	Prevotella denticola; SEQ206; JN867281	1	forward	258	0	actcctacgggaggcagcag
+S002963295	Prevotella denticola; SEQ206; JN867281	2	reverse	702	0	attagataccctggtagtcc
+S002963296	Prevotella buccae; SEQ207; JN867282	1	forward	339	0	actcctacgggaggcagcag
+S002963296	Prevotella buccae; SEQ207; JN867282	2	reverse	783	0	attagataccctggtagtcc
+S002963297	Prevotella buccae; SEQ208; JN867283	1	forward	339	0	actcctacgggaggcagcag
+S002963297	Prevotella buccae; SEQ208; JN867283	2	reverse	783	0	attagataccctggtagtcc
+S002963299	Prevotella denticola; SEQ210; JN867285	1	forward	351	0	actcctacgggaggcagcag
+S002963299	Prevotella denticola; SEQ210; JN867285	2	reverse	795	0	attagataccctggtagtcc
+S002963300	Prevotella nanceiensis; SEQ211; JN867286	1	forward	349	0	actcctacgggaggcagcag
+S002963300	Prevotella nanceiensis; SEQ211; JN867286	2	reverse	794	0	attagataccctggtagtcc
+S002963301	Prevotella oris; SEQ212; JN867287	1	forward	350	0	actcctacgggaggcagcag
+S002963301	Prevotella oris; SEQ212; JN867287	2	reverse	794	0	attagataccctggtagtcc
+S002963302	Prevotella nanceiensis; SEQ213; JN867288	1	forward	349	0	actcctacgggaggcagcag
+S002963302	Prevotella nanceiensis; SEQ213; JN867288	2	reverse	793	0	attagataccctggtagtcc
+S002963303	Prevotella baroniae; SEQ214; JN867289	1	forward	352	0	actcctacgggaggcagcag
+S002963303	Prevotella baroniae; SEQ214; JN867289	2	reverse	796	0	attagataccctggtagtcc
+S002963304	Prevotella baroniae; SEQ215; JN867290	1	forward	951	0	actcctacgggaggcagcag
+S002963304	Prevotella baroniae; SEQ215; JN867290	2	reverse	1395	0	attagataccctggtagtcc
+S002963305	Prevotella disiens; SEQ216; JN867291	1	forward	344	0	actcctacgggaggcagcag
+S002963305	Prevotella disiens; SEQ216; JN867291	2	reverse	788	0	attagataccctggtagtcc
+S002963306	Prevotella oris; SEQ217; JN867292	1	forward	346	0	actcctacgggaggcagcag
+S002963306	Prevotella oris; SEQ217; JN867292	2	reverse	790	0	attagataccctggtagtcc
+S002963308	Prevotella nanceiensis; SEQ219; JN867294	1	forward	341	0	actcctacgggaggcagcag
+S002963308	Prevotella nanceiensis; SEQ219; JN867294	2	reverse	785	0	attagataccctggtagtcc
+S002963309	Prevotella melaninogenica; SEQ220; JN867295	1	forward	344	0	actcctacgggaggcagcag
+S002963309	Prevotella melaninogenica; SEQ220; JN867295	2	reverse	788	0	attagataccctggtagtcc
+S002963310	Prevotella bergensis; SEQ221; JN867296	1	forward	345	0	actcctacgggaggcagcag
+S002963310	Prevotella bergensis; SEQ221; JN867296	2	reverse	789	0	attagataccctggtagtcc
+S002963311	Prevotella intermedia; SEQ223; JN867297	1	forward	353	0	actcctacgggaggcagcag
+S002963311	Prevotella intermedia; SEQ223; JN867297	2	reverse	798	0	attagataccctggtagtcc
+S002963312	Prevotella buccae; SEQ225; JN867298	1	forward	350	0	actcctacgggaggcagcag
+S002963312	Prevotella buccae; SEQ225; JN867298	2	reverse	794	0	attagataccctggtagtcc
+S002963313	Prevotella disiens; SEQ226; JN867299	1	forward	351	0	actcctacgggaggcagcag
+S002963313	Prevotella disiens; SEQ226; JN867299	2	reverse	795	0	attagataccctggtagtcc
+S002963314	Prevotella bivia; SEQ227; JN867300	1	forward	342	0	actcctacgggaggcagcag
+S002963314	Prevotella bivia; SEQ227; JN867300	2	reverse	786	0	attagataccctggtagtcc
+S002963315	Prevotella bivia; SEQ228; JN867301	1	forward	350	0	actcctacgggaggcagcag
+S002963315	Prevotella bivia; SEQ228; JN867301	2	reverse	794	0	attagataccctggtagtcc
+S002963316	Prevotella bivia; SEQ229; JN867302	1	forward	341	0	actcctacgggaggcagcag
+S002963316	Prevotella bivia; SEQ229; JN867302	2	reverse	785	0	attagataccctggtagtcc
+S002963317	Prevotella buccae; SEQ230; JN867303	1	forward	339	0	actcctacgggaggcagcag
+S002963317	Prevotella buccae; SEQ230; JN867303	2	reverse	783	0	attagataccctggtagtcc
+S002963318	Prevotella histicola; SEQ231; JN867304	1	forward	343	0	actcctacgggaggcagcag
+S002963318	Prevotella histicola; SEQ231; JN867304	2	reverse	787	0	attagataccctggtagtcc
+S002963319	Prevotella bivia; SEQ232; JN867305	1	forward	350	0	actcctacgggaggcagcag
+S002963319	Prevotella bivia; SEQ232; JN867305	2	reverse	794	0	attagataccctggtagtcc
+S002963320	Prevotella disiens; SEQ233; JN867306	1	forward	351	0	actcctacgggaggcagcag
+S002963320	Prevotella disiens; SEQ233; JN867306	2	reverse	795	0	attagataccctggtagtcc
+S002963321	Prevotella bivia; SEQ234; JN867307	1	forward	344	0	actcctacgggaggcagcag
+S002963321	Prevotella bivia; SEQ234; JN867307	2	reverse	788	0	attagataccctggtagtcc
+S002963322	Prevotella nanceiensis; SEQ235; JN867308	1	forward	338	0	actcctacgggaggcagcag
+S002963322	Prevotella nanceiensis; SEQ235; JN867308	2	reverse	782	0	attagataccctggtagtcc
+S002963323	Prevotella melaninogenica; SEQ236; JN867309	1	forward	344	0	actcctacgggaggcagcag
+S002963323	Prevotella melaninogenica; SEQ236; JN867309	2	reverse	788	0	attagataccctggtagtcc
+S002963324	Prevotella nanceiensis; SEQ237; JN867310	1	forward	342	0	actcctacgggaggcagcag
+S002963324	Prevotella nanceiensis; SEQ237; JN867310	2	reverse	786	0	attagataccctggtagtcc
+S002963325	Prevotella bivia; SEQ238; JN867311	1	forward	343	0	actcctacgggaggcagcag
+S002963325	Prevotella bivia; SEQ238; JN867311	2	reverse	787	0	attagataccctggtagtcc
+S002963326	Prevotella bivia; SEQ239; JN867312	1	forward	342	0	actcctacgggaggcagcag
+S002963326	Prevotella bivia; SEQ239; JN867312	2	reverse	786	0	attagataccctggtagtcc
+S002963327	Prevotella nanceiensis; SEQ240; JN867313	1	forward	341	0	actcctacgggaggcagcag
+S002963327	Prevotella nanceiensis; SEQ240; JN867313	2	reverse	785	0	attagataccctggtagtcc
+S002963328	Prevotella bivia; SEQ241; JN867314	1	forward	343	0	actcctacgggaggcagcag
+S002963328	Prevotella bivia; SEQ241; JN867314	2	reverse	787	0	attagataccctggtagtcc
+S002963329	Prevotella histicola; SEQ242; JN867315	1	forward	344	0	actcctacgggaggcagcag
+S002963329	Prevotella histicola; SEQ242; JN867315	2	reverse	788	0	attagataccctggtagtcc
+S002963330	Prevotella buccae; SEQ243; JN867316	1	forward	342	0	actcctacgggaggcagcag
+S002963330	Prevotella buccae; SEQ243; JN867316	2	reverse	786	0	attagataccctggtagtcc
+S002963331	Prevotella melaninogenica; SEQ244; JN867317	1	forward	344	0	actcctacgggaggcagcag
+S002963331	Prevotella melaninogenica; SEQ244; JN867317	2	reverse	788	0	attagataccctggtagtcc
+S002963332	Prevotella bivia; SEQ245; JN867318	1	forward	342	0	actcctacgggaggcagcag
+S002963332	Prevotella bivia; SEQ245; JN867318	2	reverse	786	0	attagataccctggtagtcc
+S002963333	Prevotella nanceiensis; SEQ246; JN867319	1	forward	349	0	actcctacgggaggcagcag
+S002963333	Prevotella nanceiensis; SEQ246; JN867319	2	reverse	793	0	attagataccctggtagtcc
+S002963334	Prevotella denticola; SEQ247; JN867320	1	forward	345	0	actcctacgggaggcagcag
+S002963334	Prevotella denticola; SEQ247; JN867320	2	reverse	789	0	attagataccctggtagtcc
+S002963335	Prevotella timonensis; SEQ251; JN867321	1	forward	349	0	actcctacgggaggcagcag
+S002963335	Prevotella timonensis; SEQ251; JN867321	2	reverse	793	0	attagataccctggtagtcc
+S003238006	uncultured Prevotella sp.; Zcy005; JQ083408	1	forward	357	0	actcctacgggaggcagcag
+S003238006	uncultured Prevotella sp.; Zcy005; JQ083408	2	reverse	801	0	attagataccctggtagtcc
+S003252068	uncultured Prevotella sp.; NRCM B1; JQ290364	1	forward	353	0	actcctacgggaggcagcag
+S003252068	uncultured Prevotella sp.; NRCM B1; JQ290364	2	reverse	797	1	ttagatacccctgatagtcc
+S003264567	Prevotella fusca; JCM 17724; AB683252	1	forward	357	0	actcctacgggaggcagcag
+S003264567	Prevotella fusca; JCM 17724; AB683252	2	reverse	801	0	attagataccctggtagtcc
+S003264568	Prevotella scopos; JCM 17725; AB683253	1	forward	357	0	actcctacgggaggcagcag
+S003264568	Prevotella scopos; JCM 17725; AB683253	2	reverse	801	0	attagataccctggtagtcc
+S003264722	Prevotella melaninogenica; JCM 6324; AB686661	1	forward	357	0	actcctacgggaggcagcag
+S003264722	Prevotella melaninogenica; JCM 6324; AB686661	2	reverse	801	0	attagataccctggtagtcc
+S003264888	Prevotella sp. JCM 6348; AB693167	1	forward	357	0	actcctacgggaggcagcag
+S003264888	Prevotella sp. JCM 6348; AB693167	2	reverse	801	0	attagataccctggtagtcc
+S003301835	Prevotella sp. S4-8; JX104019	1	forward	290	0	actcctacgggaggcagcag
+S003301835	Prevotella sp. S4-8; JX104019	2	reverse	734	0	attagataccctggtagtcc
+S003301836	Prevotella sp. S4-10; JX104020	1	forward	303	0	actcctacgggaggcagcag
+S003301836	Prevotella sp. S4-10; JX104020	2	reverse	747	0	attagataccctggtagtcc
+S003301859	Prevotella sp. S4-BM14; JX104043	1	forward	300	0	actcctacgggaggcagcag
+S003301859	Prevotella sp. S4-BM14; JX104043	2	reverse	744	0	attagataccctggtagtcc
+S003313807	Prevotella sp. CD3_27; JQ778982	1	forward	338	0	actcctacgggaggcagcag
+S003313807	Prevotella sp. CD3_27; JQ778982	2	reverse	782	0	attagataccctggtagtcc
+S003313808	Prevotella jejuni; CD3_28; JQ778983	1	forward	338	0	actcctacgggaggcagcag
+S003313808	Prevotella jejuni; CD3_28; JQ778983	2	reverse	782	0	attagataccctggtagtcc
+S003313809	Prevotella sp. CD3_32; JQ778984	1	forward	338	0	actcctacgggaggcagcag
+S003313809	Prevotella sp. CD3_32; JQ778984	2	reverse	782	0	attagataccctggtagtcc
+S003313810	Prevotella sp. CD3_33; JQ778985	1	forward	338	0	actcctacgggaggcagcag
+S003313810	Prevotella sp. CD3_33; JQ778985	2	reverse	782	0	attagataccctggtagtcc
+S003313811	Prevotella sp. CD3_34; JQ778986	1	forward	338	0	actcctacgggaggcagcag
+S003313811	Prevotella sp. CD3_34; JQ778986	2	reverse	782	0	attagataccctggtagtcc
+S003603892	uncultured Prevotella sp.; oral taxon JKAS-025; JX548367	1	forward	355	0	actcctacgggaggcagcag
+S003603892	uncultured Prevotella sp.; oral taxon JKAS-025; JX548367	2	reverse	799	0	attagataccctggtagtcc
+S003659387	Prevotella sp. R79; AB730668	1	forward	354	0	actcctacgggaggcagcag
+S003659387	Prevotella sp. R79; AB730668	2	reverse	798	0	attagataccctggtagtcc
+S003659391	Prevotella sp. RM4; AB730672	1	forward	354	0	actcctacgggaggcagcag
+S003659391	Prevotella sp. RM4; AB730672	2	reverse	798	0	attagataccctggtagtcc
+S003659396	Prevotella sp. RM13; AB730677	1	forward	354	0	actcctacgggaggcagcag
+S003659396	Prevotella sp. RM13; AB730677	2	reverse	798	0	attagataccctggtagtcc
+S003659398	Prevotella sp. RM17; AB730679	1	forward	357	0	actcctacgggaggcagcag
+S003659398	Prevotella sp. RM17; AB730679	2	reverse	801	0	attagataccctggtagtcc
+S003659410	Prevotella sp. RM47; AB730691	1	forward	286	0	actcctacgggaggcagcag
+S003659410	Prevotella sp. RM47; AB730691	2	reverse	730	0	attagataccctggtagtcc
+S003659436	Prevotella sp. RM84; AB730717	1	forward	356	0	actcctacgggaggcagcag
+S003659436	Prevotella sp. RM84; AB730717	2	reverse	800	0	attagataccctggtagtcc
+S003659458	Prevotella sp. P25; AB730739	1	forward	356	0	actcctacgggaggcagcag
+S003659458	Prevotella sp. P25; AB730739	2	reverse	801	0	attagataccctggtagtcc
+S003754265	Prevotella bivia; S7-8-1; KC311737	1	forward	302	0	actcctacgggaggcagcag
+S003754265	Prevotella bivia; S7-8-1; KC311737	2	reverse	746	0	attagataccctggtagtcc
+S003754270	Prevotella timonensis; S7MP12; KC311742	1	forward	290	0	actcctacgggaggcagcag
+S003754270	Prevotella timonensis; S7MP12; KC311742	2	reverse	734	0	attagataccctggtagtcc
+S003754272	Prevotella sp. S7MS2; S7MP18a; KC311744	1	forward	302	0	actcctacgggaggcagcag
+S003754272	Prevotella sp. S7MS2; S7MP18a; KC311744	2	reverse	746	0	attagataccctggtagtcc
+S003805808	Prevotella sp. S8 F8; KC999389	1	forward	281	0	actcctacgggaggcagcag
+S003805808	Prevotella sp. S8 F8; KC999389	2	reverse	725	0	attagataccctggtagtcc
+S003805949	Prevotella sp. S9 HS-17; KF007172	1	forward	265	0	actcctacgggaggcagcag
+S003805949	Prevotella sp. S9 HS-17; KF007172	2	reverse	709	0	attagataccctggtagtcc
+S003805956	Prevotella timonensis; S9 Pr-14; KF007179	1	forward	291	0	actcctacgggaggcagcag
+S003805956	Prevotella timonensis; S9 Pr-14; KF007179	2	reverse	735	0	attagataccctggtagtcc
+S003806561	Prevotella intermedia; 5Q35; KF030193	1	forward	357	0	actcctacgggaggcagcag
+S003806561	Prevotella intermedia; 5Q35; KF030193	2	reverse	802	0	attagataccctggtagtcc
+S003806571	Prevotella intermedia; OH5061; KF030203	1	forward	357	0	actcctacgggaggcagcag
+S003806571	Prevotella intermedia; OH5061; KF030203	2	reverse	802	0	attagataccctggtagtcc
+S003919360	Prevotella sp. Sc00026; contig00026c; JX424618	1	forward	344	0	actcctacgggaggcagcag
+S003919360	Prevotella sp. Sc00026; contig00026c; JX424618	2	reverse	788	0	attagataccctggtagtcc
+S003994046	uncultured Prevotella sp.; HLB-22; KF135659	1	forward	353	0	actcctacgggaggcagcag
+S003994046	uncultured Prevotella sp.; HLB-22; KF135659	2	reverse	797	0	attagataccctggtagtcc
+S003994047	uncultured Prevotella sp.; HLB-28; KF135660	1	forward	358	0	actcctacgggaggcagcag
+S003994047	uncultured Prevotella sp.; HLB-28; KF135660	2	reverse	802	0	attagataccctggtagtcc
+S004050483	Prevotella sp. DNF00663; KF280297	1	forward	301	0	actcctacgggaggcagcag
+S004050483	Prevotella sp. DNF00663; KF280297	2	reverse	745	0	attagataccctggtagtcc
+S004050484	Prevotella melaninogenica; DNF00666; KF280298	1	forward	292	0	actcctacgggaggcagcag
+S004050484	Prevotella melaninogenica; DNF00666; KF280298	2	reverse	736	0	attagataccctggtagtcc
+S004050488	Prevotella disiens; DNF00882; KF280302	1	forward	337	0	actcctacgggaggcagcag
+S004050488	Prevotella disiens; DNF00882; KF280302	2	reverse	781	0	attagataccctggtagtcc
+S004062028	Prevotella sp. oral taxon 299 str. F0039; CP003666	1	forward	361	0	actcctacgggaggcagcag
+S004062028	Prevotella sp. oral taxon 299 str. F0039; CP003666	2	reverse	805	0	attagataccctggtagtcc
+S004062029	Prevotella sp. oral taxon 299 str. F0039; CP003666	1	forward	361	0	actcctacgggaggcagcag
+S004062029	Prevotella sp. oral taxon 299 str. F0039; CP003666	2	reverse	805	0	attagataccctggtagtcc
+S004062030	Prevotella sp. oral taxon 299 str. F0039; CP003666	1	forward	361	0	actcctacgggaggcagcag
+S004062030	Prevotella sp. oral taxon 299 str. F0039; CP003666	2	reverse	805	0	attagataccctggtagtcc
+S004062035	Prevotella melaninogenica (T); ATCC 25845; CP002122	1	forward	364	0	actcctacgggaggcagcag
+S004062035	Prevotella melaninogenica (T); ATCC 25845; CP002122	2	reverse	808	0	attagataccctggtagtcc
+S004062036	Prevotella melaninogenica (T); ATCC 25845; CP002122	1	forward	364	0	actcctacgggaggcagcag
+S004062036	Prevotella melaninogenica (T); ATCC 25845; CP002122	2	reverse	808	0	attagataccctggtagtcc
+S004064516	Prevotella intermedia 17; CP003503	1	forward	365	0	actcctacgggaggcagcag
+S004064516	Prevotella intermedia 17; CP003503	2	reverse	810	0	attagataccctggtagtcc
+S004064517	Prevotella intermedia 17; CP003503	1	forward	365	0	actcctacgggaggcagcag
+S004064517	Prevotella intermedia 17; CP003503	2	reverse	810	0	attagataccctggtagtcc
+S004064518	Prevotella intermedia 17; CP003503	1	forward	365	0	actcctacgggaggcagcag
+S004064518	Prevotella intermedia 17; CP003503	2	reverse	810	0	attagataccctggtagtcc
+S004064987	Prevotella denticola F0289; CP002589	1	forward	364	0	actcctacgggaggcagcag
+S004064987	Prevotella denticola F0289; CP002589	2	reverse	808	0	attagataccctggtagtcc
+S004064988	Prevotella denticola F0289; CP002589	1	forward	364	0	actcctacgggaggcagcag
+S004064988	Prevotella denticola F0289; CP002589	2	reverse	808	0	attagataccctggtagtcc
+S004064989	Prevotella denticola F0289; CP002589	1	forward	364	0	actcctacgggaggcagcag
+S004064989	Prevotella denticola F0289; CP002589	2	reverse	808	0	attagataccctggtagtcc
+S004064990	Prevotella denticola F0289; CP002589	1	forward	364	0	actcctacgggaggcagcag
+S004064990	Prevotella denticola F0289; CP002589	2	reverse	808	0	attagataccctggtagtcc
+S004065411	Prevotella melaninogenica ATCC 25845; CP002123	1	forward	364	0	actcctacgggaggcagcag
+S004065411	Prevotella melaninogenica ATCC 25845; CP002123	2	reverse	808	0	attagataccctggtagtcc
+S004068045	Prevotella sp. oral taxon 299 str. F0039; CP003667	1	forward	361	0	actcctacgggaggcagcag
+S004068045	Prevotella sp. oral taxon 299 str. F0039; CP003667	2	reverse	805	0	attagataccctggtagtcc
+S004068079	Prevotella ruminicola 23; Bryant 23; CP002006	1	forward	362	0	actcctacgggaggcagcag
+S004068079	Prevotella ruminicola 23; Bryant 23; CP002006	2	reverse	806	0	attagataccctggtagtcc
+S004068367	Prevotella intermedia 17; CP003502	1	forward	365	0	actcctacgggaggcagcag
+S004068367	Prevotella intermedia 17; CP003502	2	reverse	810	0	attagataccctggtagtcc
+S004084225	Prevotella bivia; MG5; KF999877	1	forward	355	1	ctcctacgggaggcgagcag
+S004084225	Prevotella bivia; MG5; KF999877	2	reverse	799	0	attagataccctggtagtcc
+S004125853	Prevotella ruminicola; CG11; AB849444	1	forward	354	0	actcctacgggaggcagcag
+S004125853	Prevotella ruminicola; CG11; AB849444	2	reverse	798	0	attagataccctggtagtcc
+S004125854	Prevotella ruminicola; CG20; AB849445	1	forward	354	0	actcctacgggaggcagcag
+S004125854	Prevotella ruminicola; CG20; AB849445	2	reverse	798	0	attagataccctggtagtcc
+S004125856	Prevotella ruminicola; CA6; AB849447	1	forward	347	0	actcctacgggaggcagcag
+S004125856	Prevotella ruminicola; CA6; AB849447	2	reverse	791	0	attagataccctggtagtcc
+S004125857	Prevotella ruminicola; CA8; AB849448	1	forward	347	0	actcctacgggaggcagcag
+S004125857	Prevotella ruminicola; CA8; AB849448	2	reverse	791	0	attagataccctggtagtcc
+S004125858	Prevotella ruminicola; CA61; AB849449	1	forward	358	0	actcctacgggaggcagcag
+S004125858	Prevotella ruminicola; CA61; AB849449	2	reverse	802	0	attagataccctggtagtcc
+S004125860	Prevotella ruminicola; CG41; AB849451	1	forward	354	0	actcctacgggaggcagcag
+S004125860	Prevotella ruminicola; CG41; AB849451	2	reverse	798	0	attagataccctggtagtcc
+S004125862	Prevotella sp. CA17; AB849453	1	forward	347	0	actcctacgggaggcagcag
+S004125862	Prevotella sp. CA17; AB849453	2	reverse	791	0	attagataccctggtagtcc
+S004218816	Prevotella ruminicola; MG3; KJ676647	1	forward	353	1	aactcctacggaggcagcag
+S004218816	Prevotella ruminicola; MG3; KJ676647	2	reverse	795	0	attagataccctggtagtcc
+S004343546	uncultured Prevotella sp.; FecI016; KM244828	1	forward	356	0	actcctacgggaggcagcag
+S004343546	uncultured Prevotella sp.; FecI016; KM244828	2	reverse	801	0	attagataccctggtagtcc
+S004343620	uncultured Prevotella sp.; FecIF86; KM244902	1	forward	356	0	actcctacgggaggcagcag
+S004343620	uncultured Prevotella sp.; FecIF86; KM244902	2	reverse	803	0	attagataccctggtagtcc
+S004343624	uncultured Prevotella sp.; FecIF96; KM244906	1	forward	356	0	actcctacgggaggcagcag
+S004343624	uncultured Prevotella sp.; FecIF96; KM244906	2	reverse	803	0	attagataccctggtagtcc
+S004455269	Prevotella denticola; 67-4a; KP326380	1	forward	305	0	actcctacgggaggcagcag
+S004455269	Prevotella denticola; 67-4a; KP326380	2	reverse	749	0	attagataccctggtagtcc

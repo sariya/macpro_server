@@ -1,0 +1,1 @@
+java -jar /Users/sariyasanjeev/bin/copyNumber_rdp/ProbeMatch.jar primer_file.fasta.txt /Users/sariyasanjeev/Documents/files_work/BLAST_runs_16s_V34/RDP_fasta_files/Anaerococcus_filtered.fa -n 3  -o Prevotella_probe.txt 

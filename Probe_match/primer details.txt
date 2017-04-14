@@ -1,0 +1,6 @@
+Date Sept 8 2016
+
+forward primer: ACTCCTACGGGAGGCAGCAG
+Reverse primer: ATTAGAWACCCBDGTAGTCC
+
+This is raw form obtained from 16s IGS processing didn’t work
