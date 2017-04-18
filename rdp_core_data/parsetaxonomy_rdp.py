@@ -32,7 +32,7 @@ def compare_fasta(temp_rdp_fasta,temp_train_fasta,tempout):
     ids_found_in_rdp=0
     
     for i in record_train:
-
+        #there's pipe present between accession number na dseq ids
         seq_id=re.split('\|',( (i.id).rstrip() )  )[1] #this is going to be used in dict later stages
 
         if seq_id in rdp_record_ids:
@@ -148,6 +148,8 @@ def replace_special_chr(temp_word):
 
 def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
 
+    #Get Taxonomy from RDP dump for training seqs
+    
     #-fasta file is RDP database and not training FASTA
     count_species_not_found=0
 
@@ -233,7 +235,7 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
         taxonomy_string=seq_id
         species_name=temp_array[6]
         parse_species(dict_species_seqids,species_name,temp_array[5])
-
+        
         if not dict_species_seqids[seq_id][6]=='-':
             #if species not a dash
             for p in temp_array:
@@ -284,7 +286,13 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
     #-------------------------
 
 def parse_species(temp_dict,tempspecies,tempgenus):
-    
+
+    """
+    This function edits species names. There are many seq id which share same species names
+    such as uncultured, etc but in different genera
+    In order to avoid conflict in training by RDP, species names are edited. 
+
+    """
     #called from another function
     genus_species={}  #hold species and their genus
 
@@ -292,6 +300,7 @@ def parse_species(temp_dict,tempspecies,tempgenus):
         tax_array=temp_dict[key]
         if tax_array[6]==tempspecies:
             if not tax_array[5] == tempgenus:
+                
                 #time to modify name of species
                 tax_array[6]=str(tax_array[5])+'_'+tax_array[6]
                 temp_dict[key]=tax_array
@@ -300,7 +309,8 @@ def parse_species(temp_dict,tempspecies,tempgenus):
             
         #-if species check
 
-    #--for loop ends for dict        
+    #--for loop ends for dict
+    #exit function
     #--------------------------------
     #
     #---------------------------------
