@@ -450,24 +450,6 @@ if __name__=="__main__":
     print_species_missing(training_fasta_file ,missing_species_list,output_dir)
     #print sequence id for which species are missing from RDP Dump - will
 
-    record_trainnew=[] #store seqids from newly printed seqs
-
     find_missing_ids( output_dir+"/"+"species_seq.fasta",training_fasta_file )
-    sys.exit()
-    
-    
-    hmm=list(SeqIO.parse(os.path.abspath(args_dict['trainingfasta']),"fasta") )
-    new_list=[]
-    
-    missing_seq=0
 
-    for k in hmm:
-
-        record_id=re.split('\|',( (k.id).rstrip() )  )[1] #this is going to be used in dict later stages
-        if not record_id in record_trainnew:
-            new_list.append(record_id)
-        #
-    #
-    print len(new_list)
-
-            
+    
