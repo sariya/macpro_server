@@ -232,9 +232,11 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
             index+=1
         #---for loop ends
         
-        taxonomy_string=seq_id
-        species_name=temp_array[6]
+        taxonomy_string=seq_id #initiate with seq id 
+        species_name=temp_array[6] 
         parse_species(dict_species_seqids,species_name,temp_array[5])
+        
+        #after fixing species name and conflicts - Print them
         
         if not dict_species_seqids[seq_id][6]=='-':
             #if species not a dash
