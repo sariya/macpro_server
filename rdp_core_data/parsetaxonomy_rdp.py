@@ -132,6 +132,8 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
     #----------------------
 
 def replace_special_chr(temp_word):
+
+    #-replace special characters!
     
     temp_word=temp_word.replace("'",'')
     temp_word=temp_word.replace('"','')
