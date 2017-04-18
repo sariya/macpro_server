@@ -13,6 +13,34 @@ Take putput as another input parameter
 import sys,os, argparse,re
 from Bio import SeqIO
 
+def get_taxonomy_rdpdump(seqids_list,temp_fasta):
+    
+    for record in SeqIO.parse(temp_fasta,"fasta"):
+
+        if record.id in seqids_list:
+            print record.id
+    #for loop ends
+    
+    #--------------------------
+    #
+    #------------------------
+def readtext(textfile):
+
+    #
+    # Read text file to get seqids.
+    # Store them in list and return to main function
+    #
+    seqids_list=[]
+    with open (textfile) as seq_handle:
+        for line in seq_handle:
+            line=line.rstrip()
+            seqids_list.append(line)
+        #--for loop ends
+    #--with ends
+    return seqids_list
+    #----------------------
+    #
+    #----------------------
 if __name__=="__main__":
 
     parser=argparse.ArgumentParser("description")
@@ -24,8 +52,7 @@ if __name__=="__main__":
     output_dir=os.path.abspath(args_dict['out_dir'])
     rdp_dump=os.path.abspath(args_dict['rdpfasta'])
 
-    print output_dir,rdp_dump,text_file
+    seqids_list=readtext(text_file)
     
-
-    
+    get_taxonomy_rdpdump(seqids_list,rdp_dump)
                         
