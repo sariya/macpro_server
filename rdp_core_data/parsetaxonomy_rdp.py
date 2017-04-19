@@ -68,8 +68,8 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
         seqid_fasta+=1
         record_info=replace_special_chr((record.description))
         
-        t=record_info.index("Lineage")
-        record_info=record_info[:t-1] #take name until before space .
+        lineage_index=record_info.index("Lineage")
+        record_info=record_info[:lineage_index-1] #take name until before space .
         
         if ';' in record_info:    
             accession_info=re.split(';',record_info) #--split if information before lineage
