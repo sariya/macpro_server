@@ -31,10 +31,8 @@ def replace_special_chr(temp_word):
                                         
 def get_species_rdpdump(seqids_list,temp_fasta,temp_out):
 
-    count=0
-    found=[]
-    taxonomy_dict={}
-    complete_lineage={}
+    taxonomy_dict={} #7 array and seq id
+    complete_lineage={} #seqid and lineage string
     
     for record in SeqIO.parse(temp_fasta,"fasta"):
 
@@ -43,7 +41,6 @@ def get_species_rdpdump(seqids_list,temp_fasta,temp_out):
             complete_lineage[record.id]=replace_special_chr(record.description)
             #store it in the dict and return later on
             
-            found.append(record.id)
             record_info=replace_special_chr((record.description))
             lineage_index=record_info.index("Lineage")
             record_info=record_info[:lineage_index-1] #take name until before space .
@@ -62,8 +59,6 @@ def get_species_rdpdump(seqids_list,temp_fasta,temp_out):
             else:
                 acn_sp_name=re.split('\s+',accession_info)
                 #-- else complete info in one piece          
-
-            #count+=1
             
             index=1 #0th is seq identifier
             new_spc="" #--temp spec name
