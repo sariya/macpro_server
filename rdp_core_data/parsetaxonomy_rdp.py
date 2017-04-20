@@ -67,7 +67,6 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
 
         seqid_fasta+=1
         record_info=replace_special_chr((record.description))
-        
         lineage_index=record_info.index("Lineage")
         record_info=record_info[:lineage_index-1] #take name until before space .
         
@@ -89,12 +88,15 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
         index=1 #0th is seq identifier
         new_spc="" #--temp spec name
         #--add _ to different splits of species name if present
-        
+
         while index<len(acn_sp_name):
             if index==1:
                 new_spc=new_spc+acn_sp_name[index]
+
             else:
-                new_spc=new_spc+"_"+acn_sp_name[index]
+                if acn_sp_name[index]:  #add only names and not spaces
+                    new_spc=new_spc+"_"+acn_sp_name[index]
+
             index+=1
             
         #----Loop ends for joining strings
@@ -134,7 +136,7 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
 def replace_special_chr(temp_word):
 
     #-replace special characters!
-    
+    temp_word=temp_word.replace('T','')
     temp_word=temp_word.replace("'",'')
     temp_word=temp_word.replace('"','')
     temp_word=temp_word.replace('(','')
@@ -165,11 +167,11 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
                 
                 root_index=(record.description).index("rootrank") #find index
                 tax_ranks=record.description[root_index+9:] # - trim ranks from that index
-                
                 tax_ranks=replace_special_chr(tax_ranks)
+                
                 tax_ranks=tax_ranks.replace(' ','_')
                 ranks_array=re.split(';',tax_ranks)
-            
+                
                 x=0 #iterate over array- position thing #length_ranks_array=len(ranks_array)
             
                 for k in ranks_array:
@@ -235,10 +237,8 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
         
         taxonomy_string=seq_id #initiate with seq id 
         species_name=temp_array[6]
-        #print "Sendgin ",seq_id
+
         parse_species(dict_species_seqids,species_name,temp_array[5])
-        #print seq_id,dict_species_seqids[seq_id]
-        #after fixing species name and conflicts - Print them
         
         if not dict_species_seqids[seq_id][6]=='-':
             #if species not a dash
@@ -262,7 +262,7 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
 
                 index+=1
             #--while looop ends
-            #print seq_id, "modified taxonomy because species blank"
+
             taxonomy_string=taxonomy_string+"\t"+seq_id+"_"+temp_array[5]
             
             dict_species_seqids[seq_id][6]=seq_id+"_"+temp_array[5] #update taxonomy dictionary to avoid loop in parse_species func 
@@ -308,7 +308,6 @@ def parse_species(temp_dict,tempspecies,tempgenus):
                 
                 #time to modify name of species
                 tax_array[6]=str(tax_array[5])+'_'+tax_array[6]
-                #print "Conflicting and changed ", str(tax_array[5])+"\t"+tax_array[6]+"\t"+key
 
                 temp_dict[key]=tax_array
                 
