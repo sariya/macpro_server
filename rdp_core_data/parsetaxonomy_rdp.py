@@ -155,6 +155,7 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
 
     species_not_found=[] #list stores for which speices is not found in RDP big file
     #returned at the end of function
+    print "Extracting domain, class, etc. "
     
     for record in SeqIO.parse(temp_fasta,"fasta"):
 
@@ -233,9 +234,10 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
         #---for loop ends
         
         taxonomy_string=seq_id #initiate with seq id 
-        species_name=temp_array[6] 
+        species_name=temp_array[6]
+        #print "Sendgin ",seq_id
         parse_species(dict_species_seqids,species_name,temp_array[5])
-        
+        #print seq_id,dict_species_seqids[seq_id]
         #after fixing species name and conflicts - Print them
         
         if not dict_species_seqids[seq_id][6]=='-':
@@ -260,8 +262,10 @@ def get_taxonomy(temp_fasta,dict_species_seqids,temp_out,list_train_seqids):
 
                 index+=1
             #--while looop ends
-            
+            #print seq_id, "modified taxonomy because species blank"
             taxonomy_string=taxonomy_string+"\t"+seq_id+"_"+temp_array[5]
+            
+            dict_species_seqids[seq_id][6]=seq_id+"_"+temp_array[5] #update taxonomy dictionary to avoid loop in parse_species func 
 
             with open (temp_out+"/"+"tab_taxonomy.txt",'a') as tax_handle:
                 tax_handle.write(taxonomy_string+"\n")
@@ -296,7 +300,6 @@ def parse_species(temp_dict,tempspecies,tempgenus):
 
     """
     #called from another function
-    genus_species={}  #hold species and their genus
 
     for key in temp_dict:
         tax_array=temp_dict[key]
@@ -305,6 +308,8 @@ def parse_species(temp_dict,tempspecies,tempgenus):
                 
                 #time to modify name of species
                 tax_array[6]=str(tax_array[5])+'_'+tax_array[6]
+                print "Conflicting and changed ", str(tax_array[5])+"\t"+tax_array[6]+"\t"+key
+
                 temp_dict[key]=tax_array
                 
             #-if genus check
@@ -312,6 +317,7 @@ def parse_species(temp_dict,tempspecies,tempgenus):
         #-if species check
 
     #--for loop ends for dict
+    
     #exit function
     #--------------------------------
     #
