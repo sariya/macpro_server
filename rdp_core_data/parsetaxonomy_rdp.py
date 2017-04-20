@@ -308,7 +308,7 @@ def parse_species(temp_dict,tempspecies,tempgenus):
                 
                 #time to modify name of species
                 tax_array[6]=str(tax_array[5])+'_'+tax_array[6]
-                print "Conflicting and changed ", str(tax_array[5])+"\t"+tax_array[6]+"\t"+key
+                #print "Conflicting and changed ", str(tax_array[5])+"\t"+tax_array[6]+"\t"+key
 
                 temp_dict[key]=tax_array
                 
