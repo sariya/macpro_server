@@ -33,4 +33,5 @@ data_frame<-read.table(text = "",colClasses=names_classes, col.names = col_names
 
 data_frame<-table[,col_names] #assign
 
+write.table(data_frame,"filename.txt",sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
 
