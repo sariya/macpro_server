@@ -9,7 +9,7 @@
 
 genus<-c("Prevotella","Porphyromonas") #store which genera is of interest in a vector
 
-table<-read.table(file = 'small_tab.txt', sep = '\t') #read file
+table<-read.table(file = 'another_test.txt', sep = '\t') #read file
 
 new_vector<-vector(mode = "character",length = 0) #create null vector of charater type
 #this will hold all column name sthat contain genus name
@@ -33,5 +33,5 @@ data_frame<-read.table(text = "",colClasses=names_classes, col.names = col_names
 
 data_frame<-table[,col_names] #assign
 
-write.table(data_frame,"filename.txt",sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
+write.table(data_frame,"filename2.txt",sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
 
