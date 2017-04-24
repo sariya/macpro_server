@@ -16,7 +16,7 @@ from Bio import SeqIO
 def replace_special_chr(temp_word):
 
     #-replace special characters!
-
+    temp_word=temp_word.replace('T','') #replace Type strain info with blank
     temp_word=temp_word.replace("'",'')
     temp_word=temp_word.replace('"','')
     temp_word=temp_word.replace('(','')
@@ -67,7 +67,8 @@ def get_species_rdpdump(seqids_list,temp_fasta,temp_out):
                 if index==1:
                     new_spc=new_spc+acn_sp_name[index]
                 else:
-                    new_spc=new_spc+"_"+acn_sp_name[index]
+                    if acn_sp_name[index]:  #add only names and not spaces
+                        new_spc=new_spc+"_"+acn_sp_name[index]
                 index+=1
             seq_id=acn_sp_name[0] ###seq_id is thereafter used in dict and printing FASTA file
 
