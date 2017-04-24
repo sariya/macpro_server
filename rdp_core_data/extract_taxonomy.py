@@ -16,7 +16,7 @@ from Bio import SeqIO
 def replace_special_chr(temp_word):
 
     #-replace special characters!
-    temp_word=temp_word.replace('T','') #replace Type strain info with blank
+    temp_word=temp_word.replace('T','') #replace Type strain T info with blank
     temp_word=temp_word.replace("'",'')
     temp_word=temp_word.replace('"','')
     temp_word=temp_word.replace('(','')
