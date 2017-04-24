@@ -7,9 +7,11 @@
 #First column has sample names
 #First seven rows are taxonomy information in all columns except column one
 
-genus<-c("Prevotella","Porphyromonas") #store which genera is of interest in a vector
+genus<-c("Porphyromonas") #store which genera is of interest in a vector
 
-table<-read.table(file = 'another_test.txt', sep = '\t') #read file
+table<-read.table(file = 'speciesapr4_0.99_otu.tsv', sep = '\t',fill = TRUE) #read file
+
+#fill = TRUE for empty value in first 7 rows
 
 new_vector<-vector(mode = "character",length = 0) #create null vector of charater type
 #this will hold all column name sthat contain genus name
@@ -23,7 +25,6 @@ for (i in 1:length(genus)){
   new_vector<-c(new_vector,value)
 }
 
-
 names_classes<-replicate(length(new_vector)+1,"character") #create column class for length col names
 col_names<-c("V1",new_vector)
 #create vector for col_names
@@ -33,5 +34,5 @@ data_frame<-read.table(text = "",colClasses=names_classes, col.names = col_names
 
 data_frame<-table[,col_names] #assign
 
-write.table(data_frame,"filename2.txt",sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
+write.table(data_frame,"99_percent.txt",sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
 
