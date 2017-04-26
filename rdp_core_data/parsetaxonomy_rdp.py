@@ -136,11 +136,12 @@ def print_fasta_file(temp_fasta,temp_out,temp_dict):
 def replace_special_chr(temp_word):
 
     #-replace special characters!
-    temp_word=temp_word.replace('T','')
+    temp_word=re.sub(r'\(T\)',r'',temp_word)
+    #temp_word=temp_word.replace('T','') --was replacing T from genus and species  Thermoanaerobacterium was getting hermoanaerobacterium
     temp_word=temp_word.replace("'",'')
     temp_word=temp_word.replace('"','')
-    temp_word=temp_word.replace('(','')
-    temp_word=temp_word.replace(')','')
+    temp_word=temp_word.replace('(','')  #unnecessary I know
+    temp_word=temp_word.replace(')','') #unnecessary I know. But kept for double surety
     temp_word=temp_word.replace('.','')
     temp_word=temp_word.replace('+','')
     return temp_word
