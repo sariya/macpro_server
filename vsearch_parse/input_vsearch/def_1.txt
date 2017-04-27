@@ -1,0 +1,3 @@
+OTU_11743		Root	rootrank	1.0	Bacteria	domain	1.0	"Actinobacteria"	phylum	1.0	Actinobacteria	class	1.0	Actinobacteridae	subclass	1.0	Actinomycetales	order	1.0	Corynebacterineae	suborder	1.0	Corynebacteriaceae	family	1.0	Corynebacterium	genus	1.0
+OTU_10720		Root	rootrank	1.0	Bacteria	domain	1.0	"Actinobacteria"	phylum	1.0	Actinobacteria	class	1.0	Actinobacteridae	subclass	1.0	Actinomycetales	order	1.0	Actinomycineae	suborder	1.0	Actinomycetaceae	family	1.0	Mobiluncus	genus	1.0
+OTU_10729		Root	rootrank	1.0	Bacteria	domain	1.0	"Actinobacteria"	phylum	1.0	Actinobacteria	class	1.0	Actinobacteridae	subclass	1.0	Actinomycetales	order	1.0	Actinomycineae	suborder	1.0	Actinomycetaceae	family	1.0	Mobiluncus	genus	1.0
