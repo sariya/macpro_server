@@ -6,17 +6,17 @@ __author__="Sanjeev Sariya"
 
 
 global genera_int
-genera_int=["Prevotella","Porphyromonas","Dialister","Mobiluncus","Negativicoccus","Peptoniphilus","Finegoldia","Anaerococcus","Peptostreptococcus","Murdochiella"] #interested
+genera_int=["Prevotella","Porphyromonas","Dialister","Mobiluncus","Negativicoccus","Peptoniphilus","Finegoldia","Anaerococcus","Peptostreptococcus","Murdochiella"] #interested genera for species misclassification
 
-global genus_misclassified
-genus_misclassified=0
-global species_misclassified
+global genus_misclassified #glonal counter for genus
+genus_misclassified=0 
+global species_misclassified #global counter for species misclassified
 species_misclassified=0
 
 long_description="""
 
 Take classification file from trained RDP and 
-compare it with input tab delimited taxonomy file used to create lineage
+compare it with input tab delimited taxonomy file that was used to create lineage
  
 
 """
@@ -84,7 +84,7 @@ def compare_clasfctn(tax_dict,temp_classfctn):
                 genus_conf=float(split_array[genus_index+1]) #get confidence of genus assignment
                 if genus_conf < 0.8:
                     cnt_genus+=1
-                    print "Not good assignment for genus level at 80%",line
+                    #print "Not good assignment for genus level at 80%",line
                 #--if ends
                 else:
                     #pass
@@ -92,7 +92,7 @@ def compare_clasfctn(tax_dict,temp_classfctn):
                 #--else ends
             else:
                 cnt_misng_genus+=1
-                print "Genus is out of place misclassified",line
+                #print "Genus is out of place misclassified",line
         #--for loop ends
     #with ends
     
@@ -119,4 +119,4 @@ if __name__=="__main__":
     
     compare_clasfctn(tab_tax_dict,classfctn_file)
     print "Genus misclassified ",genus_misclassified
-    print "Speceis misclass ",species_misclassified
+    print "Species misclassfied from genera of our interest ",species_misclassified
