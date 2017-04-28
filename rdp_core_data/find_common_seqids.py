@@ -23,7 +23,8 @@ def get_seq_ids(temp_file):
     Check for duplicates And return them to the main function
  
     """
-    temp_seq_list=[]
+    temp_seq_list=[] #return this list
+    
     for record in SeqIO.parse(temp_file,"fasta"):
         temp_seq_list.append(record.id)
     #--for loop ends
@@ -42,9 +43,24 @@ def find_intersection(main_set,tocheck_set):
     print "Common seq ids ",len(value)
     for k in value:
         print k
+    #--for loop ends -->>
     #-----
     #
     #-----
+def find_difference(main_set,tocheck_set):
+    """ 
+    Find extra ids present in main fasta file
+    Input recieved are list objects
+    """
+    value=list(set(main_set) - set(tocheck_ids))
+    #Source: http://stackoverflow.com/questions/15455737/python-use-set-to-find-the-different-items-in-list
+    
+    print "Different Ids in main ",len(value)
+    print value
+
+    #--------------------
+    #
+    #---------------------
 if __name__=="__main__":
 
     parser=argparse.ArgumentParser("description")
@@ -58,4 +74,7 @@ if __name__=="__main__":
     tocheck_ids=get_seq_ids(file_to_check)
     print "Received all seq ids in FASTA files"
     find_intersection(set(main_seqids),set(tocheck_ids))
+
     print "Found out the intesection of two seq ids"
+    find_difference(main_seqids,tocheck_ids)
+    print "Found out additional ids in main FASTA file"
