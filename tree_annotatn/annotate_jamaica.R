@@ -32,10 +32,6 @@ gheatmap(p,genotype,offset = 0.5,width = 0.1,font.size = 2) +
   scale_fill_manual(values=c("red", "yellow", "firebrick", "white", "red", "cyan", "orange", "grey"),
                     breaks=c("Jamaica","USA","UK","Indonesia","Laos","Australia","Vietname","Singapore") )
 
-length(cbPalette)
-
-length(country_name)
-
 
 temp<-"/Library/Frameworks/R.framework/Versions/3.4/Resources/library/ggtree/examples/Genotype.txt"
 
