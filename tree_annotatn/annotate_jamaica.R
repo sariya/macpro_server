@@ -18,7 +18,7 @@ library("ape")
 
 phylip <-read.tree("kh.phy") #from ape library - read #https://www.r-phylo.org/wiki/HowTo/InputtingTrees
 
-genotype <- read.table("country.txt", sep="\t", stringsAsFactor=F, header = TRUE)
+genotype <- read.table("correct_data.txt", sep="\t", stringsAsFactor=F, header = TRUE)
 
 country_name<-unique(genotype$Country)
 
@@ -26,17 +26,24 @@ rownames(genotype)<-genotype$X #assign taxa as row names #https://github.com/Gua
 
 genotype<-subset(genotype,select = c("Country"))
 
-p<-ggtree(phylip)+geom_tiplab(align = T)+geom_treescale(offset = 10)
+p<-ggtree(phylip) 
+#+ geom_tiplab()
+#+geom_treescale(offset = 10)
 
-gheatmap(p,genotype,offset = 0.5,width = 0.1,font.size = 2) +
-  scale_fill_manual(values=c("red", "yellow", "firebrick", "white", "red", "cyan", "orange", "grey"),
-                    breaks=c("Jamaica","USA","UK","Indonesia","Laos","Australia","Vietname","Singapore") )
+#country_leg<-gheatmap(p,genotype,offset = 1,width = 0.1,font.size = 2) +
 
+country_leg<-gheatmap(p,genotype,width = 0.05,font.size = 2) +
+  scale_fill_manual(values=c("red", "yellow", "firebrick", "green", "black", "cyan", "orange", "grey"),
+                    breaks=country_name )
+ggsave(filename = "Country.pdf",plot=country_leg)
+
+
+
+##########---------------##########---------------##########---------------##########---------------
 
 temp<-"/Library/Frameworks/R.framework/Versions/3.4/Resources/library/ggtree/examples/Genotype.txt"
 
 jj<-read.table(temp, sep="\t", stringsAsFactor=F)
-##########---------------##########---------------##########---------------##########---------------
 getwd()
 
 beast_file <- system.file("examples/MCC_FluA_H3.tree", package="ggtree")
