@@ -13,6 +13,37 @@ take output directory and print in a file
 
 import sys,os, argparse,re
 from Bio import SeqIO
+
+def get_ids(seqid_file):
+    
+    """
+    Return list of seq ids
+    """
+    id_list=[] #store ids and return
+
+    with open(seqid_file) as handle:
+        id_list=[line.rstrip() for line in handle] #http://stackoverflow.com/a/20756176 Need to improve python with these kinds of hacks!!!
+        
+    #--with loop ends
+
+    return id_list
+    #-------------------------
+    #
+    #-----------------------
+def print_seqs(temp_list,temp_fasta,temp_out):
+    out_file=temp_out+"/"+"extracted_seq.fasta"
+
+    for record in SeqIO.parse(temp_fasta,"fasta"):
+        if record.id in temp_list:
+            with open(out_file,'a') as w_handle:
+                w_handle.write(str(">"+record.description+"\n"+record.seq)+"\n")
+            #--with write ends
+        #if found in seq list
+    #--for loop for seqio ends
+
+    #-------------------------
+    #
+    #-------------------------
 if __name__=="__main__":
 
     parser=argparse.ArgumentParser("description")
@@ -25,3 +56,6 @@ if __name__=="__main__":
     seqid_file=os.path.abspath(args_dict['seqid']) #seq id text file
     fasta_file=os.path.abspath(args_dict['fasta_file']) #fasta file
     
+    id_list=get_ids(seqid_file)
+    print_seqs(id_list,fasta_file,output_dir)
+    print "Check output dir for extracted_seq.fasta"
