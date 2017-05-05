@@ -11,7 +11,8 @@ Take in FASTA file current_Bacteria_unaligned.fa
 These seqeunces are to be printed in an output directory
 
 These sequences will be merged with previous RDP work
-Remeber to remove duplicites
+Remember to remove duplicates after printing these seqs and taxonomy--
+
 current_Bacteria_unaligned.fa version 11.5 is used to get sequences
 genus name and species name are case sensitive in input
 
