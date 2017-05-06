@@ -73,11 +73,11 @@ def parse_taxonomy(temp_desc,temp_file_name,seqid):
         seq_temp_spc=temp_spc_name[:semi_colon_inx] #get string until first semi colon
 
         #print seqid,(seq_temp_spc[len(seqid)+1:]).replace(" ","_" ) # get species name for the seq id
-        species_name=(seq_temp_spc[len(seqid)+1:]).replace(" ","_" )
+        species_name=((seq_temp_spc.rstrip())[len(seqid)+1:]).replace(" ","_" ) #strip to remove extra space after (T) replacement
     else:
         #if no semi colon present ----
         #print seqid,(temp_spc_name[len(seqid)+1:]).replace(" ","_") #get speices name for the seq id
-        species_name=(temp_spc_name[len(seqid)+1:]).replace(" ","_")
+        species_name=((temp_spc_name.rstrip())[len(seqid)+1:]).replace(" ","_") #strip to remove extra space after (T) replacement
 
         #--got hold of species name
         #--time to parse other ranks -----
