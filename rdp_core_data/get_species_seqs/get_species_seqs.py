@@ -31,7 +31,7 @@ def replace_special_chr(temp_word):
     temp_word=temp_word.replace(')','')
     temp_word=temp_word.replace('.','')
     temp_word=temp_word.replace('+','')
-    
+    temp_word=temp_word.replace('=','') #replace =
     return temp_word
 
     #--------------------------------------
@@ -53,6 +53,20 @@ def check_taxonomy(temp_array,temp_seqid):
     #---------------------------------------------
     #
     #------------------------------------------------
+
+def join_species_array(temp_array):
+    temp_name=""
+    for i in range(0,len(temp_array)):
+        if not i==0:
+            temp_name+="_"+temp_array[i]
+        else:
+            temp_name+=temp_array[i]
+        #---
+    #--for loop ends
+    return temp_name
+    #---------------------------------------------------------------
+    #
+    #---------------------------------------------------------
 def parse_taxonomy(temp_desc,temp_file_name,seqid):
     """
     Called from get_seqs function
@@ -72,12 +86,17 @@ def parse_taxonomy(temp_desc,temp_file_name,seqid):
         semi_colon_inx=temp_spc_name.index(";") #get index of semi colon .
         seq_temp_spc=temp_spc_name[:semi_colon_inx] #get string until first semi colon
 
-        #print seqid,(seq_temp_spc[len(seqid)+1:]).replace(" ","_" ) # get species name for the seq id
-        species_name=((seq_temp_spc.rstrip())[len(seqid)+1:]).replace(" ","_" ) #strip to remove extra space after (T) replacement
+        temp_spc_parse=re.split('\s+',(seq_temp_spc.rstrip())[len(seqid)+1:]) #get pieces of species name 
+        
+        species_name=join_species_array(temp_spc_parse) #return joined species name array
+        #species_name=((seq_temp_spc.rstrip())[len(seqid)+1:]).replace(" ","_" ) #strip to remove extra space after (T) replacement
     else:
         #if no semi colon present ----
-        #print seqid,(temp_spc_name[len(seqid)+1:]).replace(" ","_") #get speices name for the seq id
-        species_name=((temp_spc_name.rstrip())[len(seqid)+1:]).replace(" ","_") #strip to remove extra space after (T) replacement
+
+        temp_spc_parse=re.split('\s+',(temp_spc_name.rstrip())[len(seqid)+1:])
+
+        species_name=join_species_array(temp_spc_parse)
+        #species_name=((temp_spc_name.rstrip())[len(seqid)+1:]).replace(" ","_") #strip to remove extra space after (T) replacement
 
         #--got hold of species name
         #--time to parse other ranks -----
@@ -116,6 +135,7 @@ def parse_taxonomy(temp_desc,temp_file_name,seqid):
     """
     If any of the index in array is None then replaced by - 
     """
+    
     with open(temp_file_name,'a')as t_handle:
         t_handle.write(seqid+"\t"+"\t".join(x for x in taxonomy_array)+"\n")
         
@@ -127,7 +147,7 @@ def parse_taxonomy(temp_desc,temp_file_name,seqid):
 def get_seqs(genus,species, fasta, outputdir):
     """
     This function prints seqs of your genus and species
-    This also calls fucntion to get taxonomy and prints taxonomy
+    This also calls function to get taxonomy and prints taxonomy
     """
     count=0 #keep count of seqs found
     
@@ -146,7 +166,7 @@ def get_seqs(genus,species, fasta, outputdir):
             #check if species name in description
         #check if genus name is of our interest and is present in the the description
     #--for loop ends for current file
-    print "Sequences found of your genus and speies ",count
+    print "Sequences found of your genus and species ",count
     #------------------------
     #
     #-----------------------
@@ -163,7 +183,7 @@ if __name__=="__main__":
     output_dir=os.path.abspath(args_dict['out']) #output dir
     fasta_file=os.path.abspath(args_dict['fasta']) #fasta file
     genus_name=args_dict['genus'] #genus name
-    species_name=args_dict['species'] #species nanme
+    species_name=args_dict['species'] #species name
     get_seqs(genus_name,species_name,fasta_file,output_dir)
     print "Check output dir with genus and species name files for sequences and taxonomy!"
     print "<<--Bye-Bye-->>"
