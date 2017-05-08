@@ -55,12 +55,22 @@ def check_taxonomy(temp_array,temp_seqid):
     #------------------------------------------------
 
 def join_species_array(temp_array):
+    """
+    Called from parse_taxonomy function
+    It returns species name. Join elements by underscore
+    """
     temp_name=""
     for i in range(0,len(temp_array)):
         if not i==0:
-            temp_name+="_"+temp_array[i]
+            if not temp_array[i] == "":
+                temp_name+="_"+temp_array[i]
+            #not null
+        #not first element
         else:
-            temp_name+=temp_array[i]
+            if not temp_array[i] == "":
+                temp_name+=temp_array[i]
+            #if not null
+        #if not first element check
         #---
     #--for loop ends
     return temp_name
