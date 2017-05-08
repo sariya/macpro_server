@@ -6,9 +6,9 @@ __status__= "development"
 
 long_description= """
 
-Filter sequences that have Ns in that from taxonomy and FASTA file
+Filter seqs that have Ns in them from taxonomy and FASTA file
 Take in tab delimited taxonomy file
-take in fasta file and output direcory 
+take in fasta file and output directory 
  
 """
 
