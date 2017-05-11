@@ -58,8 +58,9 @@ def create_sample_list(_otu_array):
     rep_seq_object=Rep_seq(_otu_array[0],sample_count)    
     return rep_seq_object #return object
 
-#} function ends -------------------------------------------------
-
+    #------------------------------------------
+    #} function ends 
+    #------------------------------------------------
 def get_sample_array(map_file):
     """
     Added on 22 sept 2016
@@ -80,8 +81,10 @@ def get_sample_array(map_file):
         index+=1
     #for loop ends
     return sample_names_index
-#-->function ends---------------------------------->>
 
+    #------------------------------------------
+    #} function ends 
+    #------------------------------------------------
 def create_sample_list2(t_array,sample_index):
     """
     t_array is line split from map file
@@ -104,7 +107,9 @@ def create_sample_list2(t_array,sample_index):
 
     return rep_seq_object
 
-#-- function ends--------------------->
+    #------------------------------------------
+    #} function ends 
+    #------------------------------------------------
 def read_otu_map_file(_map_file):
 #function begins
     
@@ -136,8 +141,10 @@ def read_otu_map_file(_map_file):
         
     logging.debug("Rep sequence, and sample list file has been parsed")
     return rep_sample_list
-#} function ends -------------------------------------------------
 
+    #------------------------------------------------
+    #} function ends 
+    #------------------------------------------------
 def check_microbe(microb_list,microb_object):
     
 #{ Function begins
@@ -158,18 +165,25 @@ def check_microbe(microb_list,microb_object):
                              logging.debug("microbiome exists like this " + str(temp_object.rep_seq) + str(microb_object.rep_seq))
                              (temp_object.rep_seq).append((microb_object.rep_seq)[0]) #add the firt element of the list
                              return True
+                         #-if species name same
+                #if phylum and order check
+            #if domain and class name check
                         
 
     return present
-#} function ends -------------------------------------------------
+
+    #------------------------------------------------
+    #} function ends 
+    #------------------------------------------------
 
 def replace_space(temp_word):
     #added on Oct 6 2016
     replaced_word=temp_word.replace(" ","_")
     
     return replaced_word
-    #function nds--->>
-    
+    #---------------------------------------------
+    #function ends--->>
+    #---------------------------------------------
 def read_rdp_file(temp_rdp_file,conf_thresh):
 #{
     """
@@ -295,7 +309,7 @@ def read_rdp_file(temp_rdp_file,conf_thresh):
                 #if loop for species
                 
             # -- for loop ends
-            #pprint(vars(microb_obj))
+            #pprint(vars(microb_obj)) #print everything
             
             if(check_microbe(diversity_microbe,microb_obj)== False):
                 """
@@ -312,10 +326,14 @@ def read_rdp_file(temp_rdp_file,conf_thresh):
             #} if ends for check_microbe -- false/true
     #} with ends
 
-    #print diversity_microbe
+    #for k in diversity_microbe:
+        #print k,diversity_microbe[k].domain,diversity_microbe[k].phylum,diversity_microbe[k].class_m,diversity_microbe[k].order,diversity_microbe[k].family,diversity_microbe[k].genus,diversity_microbe[k].species
+        
     return diversity_microbe #return to the main python
-    
-#} function ends -------------------------------------------------
+
+    #---------------------------------------------------
+    #
+    #--------------------------------------------------
 
 def get_sample(otu_map):
 #{
@@ -340,8 +358,9 @@ def get_sample(otu_map):
 
     logging.debug("Sample list has been created and sending. Length %d"%(len(sample_list)))
     return sample_list
-#} function ends -------------------------------------------------
-
+    #---------------------------------------------
+    #function ends--->>
+    #---------------------------------------------
 def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
                         run_name,conf_thresh):
 #{
@@ -350,7 +369,6 @@ def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
     File name begins with run name, and the confidence 
     threshold provided
     """
-    
     import xlwt
     line_domain=line_phylum="\t"
     line_class=line_order="\t"
@@ -361,25 +379,63 @@ def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
         """
         Create headers for tsv file.. 
         """
-        line_domain+=list_microb_objects[m].domain+"\t"
-        line_phylum+=list_microb_objects[m].phylum+"\t"
-        line_class+=list_microb_objects[m].class_m+"\t"
-        line_order+=list_microb_objects[m].order+"\t"
-        line_family+=list_microb_objects[m].family+"\t"
-        line_genus+=list_microb_objects[m].genus+"\t"
-        line_species+=list_microb_objects[m].species+"\t"
+        #print m
+        #pprint (vars(list_microb_objects[m]))
+        #print m, "Domain ", list_microb_objects[m].domain,"Phylum ",list_microb_objects[m].phylum ,"Class ", list_microb_objects[m].class_m,"Order ", list_microb_objects[m].order,"Family ",list_microb_objects[m].family," Genus ",list_microb_objects[m].genus,"Species ",list_microb_objects[m].species
+        
+        if not list_microb_objects[m].domain: #if empty string
+            line_domain+=""+"\t"
+        else:
+            line_domain+=list_microb_objects[m].domain+"\t"
+
+        if not list_microb_objects[m].phylum:  #if empty string
+            line_phylum+=""+"\t"
+        else:
+            line_phylum+=list_microb_objects[m].phylum+"\t"
+        
+        if not list_microb_objects[m].class_m:  #if empty string
+            line_class+=""+"\t"
+        else:
+            line_class+=list_microb_objects[m].class_m+"\t"
+        
+        if not list_microb_objects[m].order:  #if empty string
+            line_order+=""+"\t"
+        else:
+            line_order+=list_microb_objects[m].order+"\t"
+
+        if not list_microb_objects[m].family:  #if empty string
+            line_family+=""+"\t"
+        else:
+            line_family+=list_microb_objects[m].family+"\t"
+        
+        if not list_microb_objects[m].genus:  #if empty string
+            line_genus+=""+"\t"
+        else:
+            line_genus+=list_microb_objects[m].genus+"\t"
+
+        if not list_microb_objects[m].species:  #if empty string
+            line_species+=""+"\t"
+        else:
+            line_species+=list_microb_objects[m].species+"\t"
+
+        #line_domain+=list_microb_objects[m].domain+"\t"
+        #line_phylum+=list_microb_objects[m].phylum+"\t"
+        #line_class+=list_microb_objects[m].class_m+"\t"
+        #line_order+=list_microb_objects[m].order+"\t"
+        #line_family+=list_microb_objects[m].family+"\t"
+        #line_genus+=list_microb_objects[m].genus+"\t"
+        #line_species+=list_microb_objects[m].species+"\t"
+        
+    #----for loop ends --->>>>>><<<<<<<<<<
 
     with open(run_name+"_"+str(conf_thresh)+'_otu.tsv', 'a') as out_file:
 
         out_file.write(line_domain+"\n"+line_phylum+"\n"+line_class+"\n"+line_order+"\n")
         out_file.write(line_family+"\n"+line_genus + "\n"+line_species+"\n")
 
-        print line_domain+"\n"+line_phylum+"\n"+line_class+"\n"+line_order
-        print line_family+"\n"+line_genus + "\n"+line_species
-
         for i in range(len(sample_list)):
             """
-            Remember each sample is individully a row in matrix
+            Remember each sample is individually a row in matrix
             """
             line=sample_list[i]+"\t"
 
@@ -387,8 +443,9 @@ def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
                 line+=str(microb_matrix[i][j])+"\t"
             out_file.write(line+"\n") 
     # rows count - sample.. variable here the microb diversity
-
-#} function ends -------------------------------------------------
+    #------------------------------------------------------
+    #} function ends 
+    #---------------------------------------------------------------
 def create_microb_matrix(rep_sample_map,list_microb_objects):
 #{
     import numpy
@@ -441,4 +498,6 @@ def create_microb_matrix(rep_sample_map,list_microb_objects):
     
     logging.debug("Matrix has been created with number of line %d and number of column %d"%(len(sample_list),len(list_microb_objects)))
     return microb_matrix,sample_list #return to the main python file
-#}  function ends -------------------------------------------------
+    #----------------------------------------------------
+    #}  function ends 
+    #--------------------------------------------
