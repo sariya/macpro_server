@@ -5,6 +5,7 @@ __location__="SEH 7th Floor"
 __author__="Sanjeev Sariya"
 
 long_description="""
+This is used after dereplication and clustering step to identify species that are close
 This print seqs id and their taxonomy that are found replicate after running VSEARCH
 
 vsearch --derep_full extracted_seq.fasta  --output full_derep.fasta --log=log --sizeout --minuniquesize 1
