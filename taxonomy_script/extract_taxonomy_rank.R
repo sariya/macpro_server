@@ -35,7 +35,7 @@ addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
 #
 #--------------------------------------------------
 library("argparse") #install.packages("argparse")
-parser <- ArgumentParser(description='Process classification TSV file')
+parser <- ArgumentParser(description='Process classification TSV file to get unique taxonomy at a certain rank')
 parser$add_argument('-t',"--tax",help="Provide TSV output from processing of RDP txt file",required=TRUE)
 parser$add_argument('-r',"--rank",help="genus or species rank of which you'd like to know unique and counts",required=TRUE)
 args <- parser$parse_args() #make it a data structure
