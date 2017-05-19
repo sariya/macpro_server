@@ -26,7 +26,7 @@ addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
         
         temp_vector<-c(gsub("<.*","",tempTaxonomyName), temp_vector)    
         #gsub - remove everything after < if present. We usually have <0.8 or bootstrap confidence 
-        #applied while pasring RDP output
+        #applied while parsing RDP output
       }
       #if taxonomy not present-----<><>
       
