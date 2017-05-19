@@ -73,8 +73,9 @@ if(rank == "genus"){
   quit()
 }
 
-length(taxonomy_names) 
-print("The values are")
+cat("Unique ", rank, " are ",paste(length(taxonomy_names),"\n" ))
+
+#print("The values are")
 
 #print(taxonomy_names)
 #for (i in 1:length(taxonomy_names)){
