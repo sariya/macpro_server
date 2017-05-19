@@ -53,7 +53,8 @@ table<-read.table(file = taxonomy_file, sep = '\t') #read file
 cat(paste("Taxonomy file loaded\n"))
 cat(paste("Number of samples in the tsv file ",nrow(table)-7,"\n"  ))
 
-taxonomy_names<-vector(length = 0)
+taxonomy_names<-vector(length = 0) #this is used to store genus/spcies names. Length is printed in the end
+
 if(rank == "genus"){
   
   cat(paste("We'll extract 6th row only","\n"))
