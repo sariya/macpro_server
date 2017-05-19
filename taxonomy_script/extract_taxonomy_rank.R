@@ -5,8 +5,8 @@
 #Date May 01 2017
 #-mention rank: species, genus and this script will provide you count of unique ranks.
 
-# Run from command line  ./extract_taxonomy_rank.R -t tsv_file
-#
+# Run from command line  ./extract_taxonomy_rank.R -t tsv_file -r rank
+# rank could be species or genus
 
 addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
   
