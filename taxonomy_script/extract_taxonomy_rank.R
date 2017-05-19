@@ -10,18 +10,18 @@
 
 addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
   
-  temp_vector<-taxonomyVector 
+  #Function takes taxonomic value and a vector. Function finds out if value is 
+  #already present in it. If not then it adds it else nothing and returns the vector. 
+  
+  temp_vector<-taxonomyVector  #return this at the end
     
-  if(is.na(tempTaxonomyName)){
+  if(is.na(tempTaxonomyName) | tempTaxonomyName==""){
     
-    #---do nothing
+    #---do nothing if value is NA or null
     
-    #print("we have issues here")
-    #print(tempTaxonomyName)
+    #print("we have issues here") #print(tempTaxonomyName)
   }
   else{
-    
-    if(tempTaxonomyName!=""){
       
       if(! (gsub("<.*","",tempTaxonomyName) %in%temp_vector) ){
         
@@ -31,10 +31,6 @@ addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
       else{
         #do nothing temp_vector<-taxonomyVector
         }
-    } #not null---<>
-    else{
-      #do nothing
-      }
   }
   return(temp_vector)
 }
@@ -82,7 +78,7 @@ if(rank == "genus"){
 length(taxonomy_names) 
 print("The values are")
 
-print(taxonomy_names)
+#print(taxonomy_names)
 #for (i in 1:length(taxonomy_names)){
 #  print ("Print value")
  # print(taxonomy_names[i])
