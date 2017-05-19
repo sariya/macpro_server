@@ -18,7 +18,6 @@ addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
   if(is.na(tempTaxonomyName) | tempTaxonomyName==""){
     
     #---do nothing if value is NA or null
-    
     #print("we have issues here") #print(tempTaxonomyName)
   }
   else{
@@ -28,9 +27,7 @@ addTaxonomy<-function(tempTaxonomyName, taxonomyVector){
         temp_vector<-c(gsub("<.*","",tempTaxonomyName), temp_vector)    
       }
       #if taxonomy not present-----<><>
-      else{
-        #do nothing temp_vector<-taxonomyVector
-        }
+      
   }
   return(temp_vector)
 }
