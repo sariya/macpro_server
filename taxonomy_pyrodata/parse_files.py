@@ -1,5 +1,5 @@
 #
-import re,sys
+import re,sys,logging
 from microbiome import *
 
 def check_microbe(taxonomy_list,microbe_dict):
@@ -40,7 +40,7 @@ def parse_seqid(temp_string):
     #-----------------------------
     #Added June 14 2017
     #------------------------------
-def read_rdp_clsfctn(temp_rdpfile,temp_conf):
+def read_rdp_taxnmy(temp_rdpfile,temp_conf):
     
     sampleNnames_list=[] #store sample names in this
     store_microbes={} #this stores key as int value and microbe objects
@@ -146,11 +146,15 @@ def read_rdp_clsfctn(temp_rdpfile,temp_conf):
         #--for loop ends for line
     #-with loop ends
 
-    print "Total sample names in data ",len(sampleNnames_list)
-    print "Confidence is ",temp_conf
-    print "Length of microbes stored ",len(store_microbes)
-    print "Total taxonomy classification are ",count_taxonomy(store_microbes)
-    
+    #print "Total sample names in data ",len(sampleNnames_list)
+    #print "Confidence is ",temp_conf
+    #print "Length of microbes stored ",len(store_microbes)
+    #print "Total taxonomy classification are ",count_taxonomy(store_microbes)
+    logging.debug("Total samples found through taxonomy file %s" %(len(sampleNnames_list)))
+    logging.debug("Confidence used whilst parsing RDP taxonomy file %s" %(temp_conf))
+    logging.debug("Length of microbes stored %s" %(len(store_microbes)))
+    logging.debug("Total taxnmy classification seqs from RDP are %s" %(count_taxonomy(store_microbes)))
+                  
     #----------------------------------
     #Added on Date June 14 2017
     #---------------------------------
