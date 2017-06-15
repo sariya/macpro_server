@@ -62,7 +62,7 @@ def main(**_temp_dict):
     rdp_file=check_inputs(**_temp_dict)
     
     logging.debug("Input file are correct ")
-    read_rdp_clsfctn(rdp_file)
+    read_rdp_clsfctn(rdp_file,_temp_dict['conf'])
     return log_file_name
 
 #} Function ends
