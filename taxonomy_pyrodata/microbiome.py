@@ -72,14 +72,18 @@ class Microbiome:
         """
         Called by object itself to print its content
         """
-        print "In the vars print methods"
+
         pprint(vars(self))
-        print "Printed every thing here"
+
     #-------------------------------
     #Added June 15th 
     #-------------------------------
-    def add_sample_count(self):
 
+    def add_sample_count(self):
+        """
+        Add all values from sample_name dict. Aim is to return 
+        count of total taxonomies found. 
+        """
         return sum((self.sample_counts).values())
     #----------------------------
     # Added June 15th 2017
