@@ -7,7 +7,7 @@ __status__= "development"
 __version__="0.1"
 
 """
-Files: RDP clasfction from Pyro-454 sequencing. Processed by old pipelines
+Files: RDP taxonomy from Pyro-454 sequencing. Processed by old pipelines
 at TGen. Unput FASTA seqs have strt_SAMPLE_NAME_end_DNA_none pattern
 
 Takes in confidence, RDP output
@@ -62,7 +62,7 @@ def main(**_temp_dict):
     rdp_file=check_inputs(**_temp_dict)
     
     logging.debug("Input file are correct ")
-    read_rdp_clsfctn(rdp_file,_temp_dict['conf'])
+    read_rdp_taxnmy(rdp_file,_temp_dict['conf'])
     return log_file_name
 
 #} Function ends
