@@ -54,7 +54,7 @@ def main(**_temp_dict):
     from time import strftime
     current_time=strftime("%Y%m%d%H%M%S")
 
-    log_file_name=_temp_dict['run_name']+"_"+current_time+".log"
+    log_file_name=_temp_dict['run_name']+"_"+str(_temp_dict['conf'])+"_"+current_time+".log"
     logging.basicConfig(filename=log_file_name,format='%(asctime)s %(message)s',datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
     logging.debug("Thanks for using RDP excel. Version %s" %(__version__))
      
@@ -62,7 +62,12 @@ def main(**_temp_dict):
     rdp_file=check_inputs(**_temp_dict)
     
     logging.debug("Input file are correct ")
-    read_rdp_taxnmy(rdp_file,_temp_dict['conf'])
+    sample_names_dict,taxonomy_dict=read_rdp_taxnmy(rdp_file,_temp_dict['conf'])
+    taxnmy_matrx_counts=create_matrx(len(sample_names_dict),len(taxonomy_dict))
+    populate_matrx(taxnmy_matrx_counts,taxonomy_dict,sample_names_dict)
+
+    print_populated_matrx(taxnmy_matrx_counts,taxonomy_dict,sample_names_dict,
+                          _temp_dict['run_name'],_temp_dict['conf'])
     return log_file_name
 
 #} Function ends
