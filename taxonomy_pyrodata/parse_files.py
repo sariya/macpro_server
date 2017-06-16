@@ -1,6 +1,7 @@
 #
 import re,sys,logging
 from microbiome import *
+from collections import OrderedDict,defaultdict
 
 def check_microbe(taxonomy_list,microbe_dict):
     """
@@ -42,8 +43,11 @@ def parse_seqid(temp_string):
     #------------------------------
 def read_rdp_taxnmy(temp_rdpfile,temp_conf):
     
-    sampleNnames_list=[] #store sample names in this
-    store_microbes={} #this stores key as int value and microbe objects
+    #sampleNnames_list=[] #store sample names in this
+    sampleNnames_dict=OrderedDict()  #create order dict for sample names-- 
+    #store_microbes={} #this stores key as int value and microbe objects
+    store_microbes=OrderedDict() #this stores key as int value and microbe objects
+
     with open(temp_rdpfile) as handle:
 
         for line in handle:
@@ -55,81 +59,69 @@ def read_rdp_taxnmy(temp_rdpfile,temp_conf):
             split_array=filter(None,re.split('\s+',line))  #split it by tab, remove/filter the ones which are blank/tab...
             sample_name=parse_seqid(split_array[0])
 
-            #pass_threshold=True # Flag to keep a check if threshold has passed or fail
+            pass_threshold=True # Flag to keep a check if threshold has passed or fail
             
-            if not sample_name in sampleNnames_list:
-                sampleNnames_list.append(sample_name)
+            if not sample_name in sampleNnames_dict:
+                #sampleNnames_list.append(sample_name)
+                #sampleNnames_dict[len(sampleNnames_dict)+1]=sample_name
+                sampleNnames_dict[sample_name]= len(sampleNnames_dict)
             #--if ends for storing sample name
     
             for i in range(len(split_array)):
 
                 if split_array[i].lower() == "domain":
                     
-                #    if pass_threshold:
                     if float(split_array[i+1])>=temp_conf:
                         temp_list[0]=split_array[i-1]
                     else:
                         temp_list[0]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
+
                         
                 if split_array[i].lower() == "phylum":
-                 #   if pass_threshold:
+
                     if float(split_array[i+1])>=temp_conf:            
                         temp_list[1]=split_array[i-1]
                     else:
                         temp_list[1]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
                         
-                if split_array[i].lower() == "class":
-                  #  if pass_threshold:
-                    if float(split_array[i+1])>=temp_conf:
-                        temp_list[2]=split_array[i-1]
                         
+                if split_array[i].lower() == "class":
+                    
+                    if float(split_array[i+1])>=temp_conf: temp_list[2]=split_array[i-1]
                     else:
                         temp_list[2]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
                         
                 if split_array[i].lower() == "order":
-                   # if pass_threshold:
 
-                    if float(split_array[i+1])>=temp_conf:
-                        temp_list[3]=split_array[i-1]
+                    if float(split_array[i+1])>=temp_conf: temp_list[3]=split_array[i-1]
                     else:
                         temp_list[3]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
                         
                 if split_array[i].lower() == "family":
-                    #if pass_threshold:
-                    if float(split_array[i+1])>=temp_conf:
-                        temp_list[4]=split_array[i-1]
+
+                    if float(split_array[i+1])>=temp_conf: temp_list[4]=split_array[i-1]
                     else:
                         temp_list[4]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
-                        
+                    
                 if split_array[i].lower() == "genus":
-                    #if pass_threshold:
-                    if float(split_array[i+1])>=temp_conf:
-                        temp_list[5]=split_array[i-1]
-
+                    
+                    if float(split_array[i+1])>=temp_conf: temp_list[5]=split_array[i-1]
                     else:
                         temp_list[5]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
-                        
+                    
                 if split_array[i].lower() == "species":
-                    #if pass_threshold:
-                    if float(split_array[i+1])>=temp_conf:
-                        temp_list[6]=split_array[i-1]
-
+                    
+                    if float(split_array[i+1])>=temp_conf: temp_list[6]=split_array[i-1]
                     else:
                         temp_list[6]=split_array[i-1]+"<"+str(temp_conf)
-                        #pass_threshold=False
                         break
+
             #--for iteration ends-------
             
             key_microbe_dict=check_microbe(temp_list,store_microbes) # found or not taxonomy
@@ -141,20 +133,16 @@ def read_rdp_taxnmy(temp_rdpfile,temp_conf):
                 microbe_object=Microbiome() #create new object 
                 microbe_object.set_attributes(temp_list,sample_name) #set attributes 
                 
-                store_microbes[len(store_microbes)+1]=microbe_object
+                store_microbes[len(store_microbes)]=microbe_object
             #---if check ends for taxonomy. Found -1 or not 
         #--for loop ends for line
     #-with loop ends
 
-    #print "Total sample names in data ",len(sampleNnames_list)
-    #print "Confidence is ",temp_conf
-    #print "Length of microbes stored ",len(store_microbes)
-    #print "Total taxonomy classification are ",count_taxonomy(store_microbes)
-    logging.debug("Total samples found through taxonomy file %s" %(len(sampleNnames_list)))
+    logging.debug("Total samples found through taxonomy file %s" %(len(sampleNnames_dict)))
     logging.debug("Confidence used whilst parsing RDP taxonomy file %s" %(temp_conf))
-    logging.debug("Length of microbes stored %s" %(len(store_microbes)))
+    logging.debug("Unique taxonomy stored %s" %(len(store_microbes)))
     logging.debug("Total taxnmy classification seqs from RDP are %s" %(count_taxonomy(store_microbes)))
-                  
+    return (sampleNnames_dict,store_microbes)
     #----------------------------------
     #Added on Date June 14 2017
     #---------------------------------
@@ -172,4 +160,109 @@ def count_taxonomy(temp_dict):
     #-----------------------------
     #Added on Date June 15th 2017
     #------------------------------
+
+def create_matrx(row_count,col_count):
     
+    import numpy    
+    return numpy.zeros((row_count,col_count)) #create 2D matrix
+
+    #-----------------------------------
+    #Date June 16th 2017
+    #-----------------------------------
+    
+def populate_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict):
+
+    import numpy 
+    """
+    Populate counts of taxnmy found. We're using ordered dict with sample names and taxnmy. index and ket value are
+    utilized to access row and column indices. 
+    """
+    for key, val in _temp_taxnmy_dict.iteritems():
+        matrx_colmn_index=key 
+        
+        for _sampleName,_sample_count in (val.sample_counts).iteritems():
+            """
+            Iterate through dict microbiome objt has. 
+            """
+            matrx_row_index=_temp_sample_dict.keys().index(_sampleName) # get index of sample stored in _temp_sample_dict
+            
+            """
+            Get index of sample name from its dictionary. After extracting index of sample name, store it
+            Stored index of sample name is going to be row number that's to be updated in matrix
+            Column would be key for the iterating taxonomy. Key starts from 0...goes until unique taxonomy
+            """
+            try:
+                temp_matrx[matrx_row_index][matrx_colmn_index]+=_sample_count
+            
+            except Exception as e:
+                print "Having issues with updating mtrx "
+                sys.exit()
+            #--try ends
+        #--For loop ends for dict in taxonomy object 
+    #--for loop for taxnmy dictnry
+    logging.debug("Doing sum of all elements of matrix." )
+    logging.debug("Sum of all elements that should be same as RDP seqs count %s" %(numpy.sum(temp_matrx)))
+
+    
+    #---------------------------------
+    #Date June 16th 2017
+    #--------------------------------
+
+def print_populated_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict,run_name,temp_conf):
+
+    import xlwt,numpy
+    """
+    First get tab delimited headers of taxonomy
+    """
+    line_domain=line_phylum="\t"
+    line_class=line_order="\t"
+    line_family=line_genus="\t"
+    line_species="\t"
+    
+    for key, val in _temp_taxnmy_dict.iteritems():
+
+        if not val.domain: line_domain+=""+"\t"
+        else: line_domain+=val.domain+"\t"
+
+        if not val.phylum: line_phylum+=""+"\t"
+        else: line_phylum+=val.phylum+"\t"
+
+        if not val.class_m: line_class+=""+"\t"
+        else: line_class+=val.class_m+"\t"
+
+        if not val.order: line_order+=""+"\t"
+        else: line_order+=val.order+"\t"
+
+        if not val.family: line_family+=""+"\t"
+        else: line_family+=val.family+"\t"
+
+        if not val.genus: line_genus+=""+"\t"
+        else: line_genus+=val.genus+"\t"
+
+        if not val.species: line_species+=""+"\t"
+        else: line_species+=val.species+"\t"
+        
+    ##--For loop ends to create header-->>
+
+    col_counts=numpy.shape(temp_matrx)[1] 
+    with open(run_name+"_"+str(temp_conf)+'_otu.tsv', 'a') as out_file:
+        
+        out_file.write(line_domain+"\n"+line_phylum+"\n"+line_class+"\n"+line_order+"\n")
+        out_file.write(line_family+"\n"+line_genus + "\n"+line_species+"\n")
+    
+        for sampleName, index_sampleName in _temp_sample_dict.iteritems():
+            matrx_line="" #concatenate counts to this string
+            
+            matrx_line+=sampleName+"\t"
+            
+            #index_sampleName is row index. 
+            for i in range(col_counts): matrx_line+=str(temp_matrx[index_sampleName][i])+"\t"
+
+            out_file.write(matrx_line+"\n")
+        
+        #----iterate over row.
+    #--with handle ends to write output
+    #print _temp_sample_dict
+    #------------------------
+    #Date June 16th 2017
+    #------------------------
