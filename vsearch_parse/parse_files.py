@@ -362,12 +362,14 @@ def get_sample(otu_map):
     #function ends--->>
     #---------------------------------------------
 def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
-                        run_name,conf_thresh):
+                        run_name,conf_thresh,type_clsfc):
 #{
     """
     This function prints matrix created in tsv format
     File name begins with run name, and the confidence 
     threshold provided
+    type of clasfction: genus, spcs. This is to be used in output tsv file
+
     """
     import xlwt
     line_domain=line_phylum="\t"
@@ -428,7 +430,7 @@ def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
         
     #----for loop ends --->>>>>><<<<<<<<<<
 
-    with open(run_name+"_"+str(conf_thresh)+'_otu.tsv', 'a') as out_file:
+    with open(run_name+"_"+str(conf_thresh)+"_"+type_clsfc+'.tsv', 'a') as out_file:
 
         out_file.write(line_domain+"\n"+line_phylum+"\n"+line_class+"\n"+line_order+"\n")
         out_file.write(line_family+"\n"+line_genus + "\n"+line_species+"\n")
