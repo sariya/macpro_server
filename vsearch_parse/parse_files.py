@@ -371,7 +371,7 @@ def print_microb_matrix(microb_matrix,sample_list,list_microb_objects,
     type of clasfction: genus, spcs. This is to be used in output tsv file
 
     """
-    import xlwt
+    #import xlwt
     line_domain=line_phylum="\t"
     line_class=line_order="\t"
     line_family=line_genus="\t"
