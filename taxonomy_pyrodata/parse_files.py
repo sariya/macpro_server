@@ -208,11 +208,17 @@ def populate_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict):
     #Date June 16th 2017
     #--------------------------------
 
-def print_populated_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict,run_name,temp_conf):
+def print_populated_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict,run_name,temp_conf,type_clsfctn):
 
-    import xlwt,numpy
+    import numpy
     """
     First get tab delimited headers of taxonomy
+    temp_matrx - contains counts
+    _temp_txnmy_dict - clasfctn dictnry
+    _temp_sample_dict contains sample names
+    run_name - name provided by user
+    type_clsfctn can be genus or species
+
     """
     line_domain=line_phylum="\t"
     line_class=line_order="\t"
@@ -244,8 +250,8 @@ def print_populated_matrx(temp_matrx,_temp_taxnmy_dict,_temp_sample_dict,run_nam
         
     ##--For loop ends to create header-->>
 
-    col_counts=numpy.shape(temp_matrx)[1] 
-    with open(run_name+"_"+str(temp_conf)+'_otu.tsv', 'a') as out_file:
+    col_counts=numpy.shape(temp_matrx)[1] # get colmn counts 
+    with open(run_name+"_"+str(temp_conf)+"_"+type_clsfctn+'.tsv', 'a') as out_file:
         
         out_file.write(line_domain+"\n"+line_phylum+"\n"+line_class+"\n"+line_order+"\n")
         out_file.write(line_family+"\n"+line_genus + "\n"+line_species+"\n")
