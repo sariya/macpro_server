@@ -3,7 +3,7 @@
 __date__="Sept 27 2016"
 __location__="SEH 7th floor west offices, DC 20037"
 __author__="Sanjeev Sariya"
-
+__version__="0.2"
 """
 
 
@@ -21,6 +21,8 @@ Run as:
 
 python merge_otu_tables.py -o mini_april.txt,mini_aug_2.txt -dir ./
 
+python ~/submit_git/merge_otu_table/merge_otu_tables.py -o ../../liupricelab_run_1/tabfile.tsv,../../liupricelab_run_2/new_tabfile.tsv -dir ./ -run genital
+- it can allow tab file with path too now
 -dir: directory is where all .txt input files are present
 
 VSEARCH is used upstream 
@@ -43,7 +45,8 @@ def get_column_count(array_otu_files, otu_dir):
     
     for i in array_otu_files:
         
-        file_name=otu_dir+"/"+i
+        file_name=i
+        #file_name=otu_dir+"/"+i
 
         with open(file_name) as handle:
             line = next(handle)#get only top line
@@ -90,8 +93,9 @@ def get_row_counts(array_otu_files, otu_dir):
     temp_otus={}#hold all otu ids in a dictionary
 
     for i in array_otu_files:
-        
-        file_name=otu_dir+"/"+i
+
+        file_name=i
+        #file_name=otu_dir+"/"+i
         with open(file_name) as handle:
             next(handle)#skip top row as it contains sample names
             
@@ -104,10 +108,7 @@ def get_row_counts(array_otu_files, otu_dir):
                     #if no element then .. have the value as 0 .. and then go ahead with 1, 2,....
                     temp_otus[line_split[0]]=0
 
-                else:
-                    
-                    temp_otus[line_split[0]]=len(temp_otus)
-
+                else: temp_otus[line_split[0]]=len(temp_otus)
                     #if check ends with len of dict and adding OTUs in the
                     #dictionary......
             
@@ -146,6 +147,10 @@ def check_otu_args(temp_list):
         print "Check log file"
         sys.exit(0)
     #-if ends for comma and array len check
+    
+    for i in range(len(files_name)):
+        files_name[i]=os.path.abspath(files_name[i])
+    #--make their path as absolute
 
     return files_name
 #}function ends--------------------------------->>
@@ -157,7 +162,8 @@ def populate_matrix(temp_matrix,temp_otus,temp_samples,array_otu_files, otu_dir)
         sample_array=[]#store sample names in an array
         
         line_num=0
-        file_name=otu_dir+"/"+i
+        file_name=i
+        #file_name=otu_dir+"/"+i
         sample_array=[]
         """
         for each file sample_array will hold top line
