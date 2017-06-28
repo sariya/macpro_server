@@ -61,5 +61,5 @@ data_frame<-table[,col_names] #assign
 output_file<-paste(output_dir,"/","extracted_",args$genus,"_",confdnc,".tsv",sep="") #make name for output file
 
 write.table(data_frame,output_file,sep="\t",row.names = FALSE,col.names = FALSE,quote = FALSE)
-
+cat("Check file ",output_file,"\n")
 #----ends-
