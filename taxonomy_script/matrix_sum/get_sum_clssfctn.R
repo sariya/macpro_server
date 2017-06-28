@@ -4,6 +4,8 @@
 #Sanjeev Sariya
 #
 #This R script prints sum all counts in all classification from TSV file
+#
+# Rscript get_sum_clssfctn.R -f sample.txt
 
 library("argparse") #install.packages("argparse")
 
@@ -23,10 +25,12 @@ table<-tail(table,-7)
 #sum(table) --canot do this because all variables are factor.
 #convert factor to as.charcater and then to numeric
 
-sum(sapply(table[,-1],function(x){
+cat("Sum of all taxonomic counts",sum(sapply(table[,-1],function(x){
 	if(is.factor(x) ) as.numeric(as.character(x))
 	else x
 			   } #--function ends
 	) #-- sapply ends
-   )
-#-- -1 because we want to ignore name of all samples. 
+				    )#--sum ends
+   ,"\n"
+   )#-cat ends
+#-- -1 because we want to ignore name of all samples. B
