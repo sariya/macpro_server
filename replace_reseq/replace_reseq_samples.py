@@ -37,7 +37,8 @@ def store_replacmnt(temp_textFile):
     #----------------------
 
 def process_sample_replcmnt(temp_dict,temp_tabFile):
-    
+
+    changes_made=0
     """
     temp_dict from store_replcmnt functn
     temp_tabFile has otu from vsearch and roEdga scripts 
@@ -55,11 +56,13 @@ def process_sample_replcmnt(temp_dict,temp_tabFile):
 
             if sample in temp_dict:
                 new_header=new_header+"\t"+temp_dict[sample]
+                changes_made+=1
             else: new_header=new_header+"\t"+sample
 
             #-if check ends for temp_dict presence
         #--for loop ends
     #--with loop ends
+    print "Total changes made ",changes_made
     return new_header.lstrip()
     #-----------------------
     #
@@ -92,4 +95,5 @@ if __name__=="__main__":
     dict_replamnt=store_replacmnt(args_dict['repl'])
     new_header=process_sample_replcmnt(dict_replamnt,args_dict['tab'])
     print_new_tab(new_header,args_dict['tab'],args_dict['out'])
-    
+    print "Check for new_tabfile.tsv file in output directory"
+    print "<<--Done-->>"
