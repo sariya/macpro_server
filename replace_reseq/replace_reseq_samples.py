@@ -38,7 +38,8 @@ def store_replacmnt(temp_textFile):
 
 def process_sample_replcmnt(temp_dict,temp_tabFile):
 
-    changes_made=0
+    changes_made=0 #keep track of how many replacements made - must match with 
+    #length of dict 
     """
     temp_dict from store_replcmnt functn
     temp_tabFile has otu from vsearch and roEdga scripts 
