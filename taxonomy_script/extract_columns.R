@@ -48,6 +48,13 @@ value<-names(which(apply(table, 2, function(x) any(grepl(genus, x)
   	      )
 #grepl gives you indices. 
 #2 means each column.
+
+if(length(value)==0){
+  #exit script with message. if genus is not present
+  cat("No output file will be generated for genus is unavailable in the classification ","\n")
+  stop("No output will be created")
+}
+
 new_vector<-c(new_vector,value)
 
 names_classes<-replicate(length(new_vector)+1,"character") #create column class for length col names
