@@ -18,7 +18,7 @@ parser$add_argument('-c',"--conf",help="Store output directory",required=TRUE) #
 args <- parser$parse_args() #make it a data structure
 
 genus<-args$genus #convert to lower case
-
+genus<-gsub("[[:space:]]", "", genus) # note the double square brackets - remove spaces
 if(!grepl("^[[:upper:]]", genus)){
 
 #check if genus name starts with upper case.
