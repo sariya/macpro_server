@@ -6,7 +6,7 @@ __author__="Sanjeev Sariya"
 
 
 global genera_int
-genera_int=["Prevotella","Porphyromonas","Dialister","Mobiluncus","Negativicoccus","Peptoniphilus","Finegoldia","Anaerococcus","Peptostreptococcus","Murdochiella"] #interested genera for species misclassification
+genera_int=["Prevotella","Porphyromonas","Dialister","Mobiluncus","Negativicoccus","Peptoniphilus","Finegoldia","Anaerococcus","Peptostreptococcus","Murdochiella","Staphylococcus","Lactobacillus"] #interested genera for species misclassification
 
 global genus_misclassified #glonal counter for genus
 genus_misclassified=0 
@@ -18,8 +18,8 @@ long_description="""
 Take classification file from trained RDP and 
 compare it with input tab delimited taxonomy file that was used to create lineage
  
-
 """
+
 import argparse, os, re,sys
 
 def store_taxonomy(temp_tabtaxonomy):
@@ -39,6 +39,7 @@ def store_taxonomy(temp_tabtaxonomy):
             
         #--for ends
     #-with ends
+
     return dict_seqid
     #------------------------
     #
@@ -68,7 +69,7 @@ def compare_clasfctn(tax_dict,temp_classfctn):
 
     cnt_genus=0 #count for genus less than 80%
     cnt_misng_genus=0 #count of missing genus assignment
-    
+    print len(tax_dict)
     """
     Take dictionary of tab delimited taxonomy and classfiction file from trained RDP
     """
@@ -87,7 +88,7 @@ def compare_clasfctn(tax_dict,temp_classfctn):
                     #print "Not good assignment for genus level at 80%",line
                 #--if ends
                 else:
-                    #pass
+
                     check_assgnmnt(split_array,tax_dict[seq_id],genus_index)
                 #--else ends
             else:
