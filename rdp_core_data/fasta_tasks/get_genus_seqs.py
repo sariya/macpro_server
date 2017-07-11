@@ -139,7 +139,11 @@ def parse_taxonomy(temp_desc,temp_file_name,seqid):
             taxonomy_array[5]=split_tax_string[k-1]
 
     #--for loop ends ----->>>>>>>>>>>>>
-    taxonomy_array[6]=species_name #store species name in the end ---
+    if species_name == "":
+        #there can be seqids with no species name 
+        taxonomy_array[6]="Unknown_"+taxonomy_array[5]
+    else:
+        taxonomy_array[6]=species_name #store species name in the end ---
 
     taxonomy_array=check_taxonomy(taxonomy_array,seqid)
     """
