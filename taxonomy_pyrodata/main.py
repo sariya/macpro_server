@@ -4,7 +4,7 @@ __author__ = "Sanjeev Sariya"
 __date__= "June 14 2017"
 __maintainer__= "Sanjeev Sariya"
 __status__= "development"
-__version__="0.2"
+__version__="0.3"
 
 """
 Files: RDP taxonomy from Pyro-454 sequencing. Processed by old pipelines
@@ -55,7 +55,7 @@ def main(**_temp_dict):
     from time import strftime
     current_time=strftime("%Y%m%d%H%M%S")
 
-    log_file_name=_temp_dict['run_name']+"_"+str(_temp_dict['conf'])+"_"+current_time+".log"
+    log_file_name=_temp_dict['run_name']+"_"+str(_temp_dict['conf'])+"_"+_temp_dict['type']+"_"+current_time+".log"
     logging.basicConfig(filename=log_file_name,format='%(asctime)s %(message)s',datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.DEBUG)
     logging.debug("Thanks for using RDP excel. Version %s" %(__version__))
      
